@@ -1,0 +1,40 @@
+body {
+    background-color: #f0f0f0; /* Change background color */
+    font-family: 'Press Start 2P', cursive; /* NES-style font */
+}
+
+h1 {
+    text-align: center; /* Center the title */
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+/*
+<style>
+body {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+
+}
+.social-icons {
+    margin: 20px 0;
+}
+.social-icons a {
+    margin: 0 15px;
+    text-decoration: none;
+}
+</style>
+*/
