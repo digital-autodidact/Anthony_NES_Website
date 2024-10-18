@@ -43,3 +43,14 @@ All notable changes to this project will be documented in this file.
     - "Interests" section
     - "Roles I Like to Play" section
 - Copied the footer design used in my `index.html` page
+
+
+
+## [1.2.0] - 2024-10-18
+### Changed
+- Created 4 mock project cards within my `Code Projects` page. Each project card includes:
+   - a placeholder image
+   - a project name
+   - a description
+   - technology stack
+   - a GitHub repo link

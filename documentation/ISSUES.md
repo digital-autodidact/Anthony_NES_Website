@@ -30,3 +30,20 @@
   - I learned that Google has a respository of different fonts I can use! You should explore this website to look for new fonts: https://fonts.google.com/
   - Additionally, Google has a respository of different icons I can use. Also explore this webpage later to look for new icons: https://fonts.google.com/icons
 
+
+## Issue #2: Project Cards on `About Me` Page Are Unevenly Spaced and Have Inconsistently Sized Images
+- **Date:** 2024-10-18
+- **Description:**
+  - The project cards I built on the `About Me` page are bunched up on the left side of the screen. This displeases me; I wish to see them evenly spaced apart on the screen. Additionally, the images used within the project cards are inconsistently sized. I wish to see them all a standard size.
+- **Resolution:**
+  - Explain the solution you implemented.
+- **Learnings:**
+  - What did you learn from this issue?
+
+
+
+
+
+
+
+  

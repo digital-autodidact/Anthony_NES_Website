@@ -1,64 +1,53 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
 }
 
 header {
-    background-color: #333;
-    padding: 10px 0;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 20px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-nav ul li a:hover {
-    color: #ff6347;  /* Change to a different color on hover */
-}
-
-main {
-    padding: 20px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
-.about-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start; /* Align items at the top */
-
-.about-text {
-    flex: 1; /* Take up remaining space */
-    margin-right: 20px; /* Add some space between text and image */
+.project-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: inline-block; /* Allow the cards to flow inline */
+    vertical-align: top; /* Aligns the cards to the top */
 }
 
-.about-image img {
-    max-width: 300px; /* Set the maximum width for the image */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Optional: round the corners for aesthetics */
+.project-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.project-card h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.project-card p {
+    font-size: 1rem;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: blue;
+    text-decoration: none;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
 }
 
 footer {
     text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: white;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
+    margin-top: 30px;
 }
