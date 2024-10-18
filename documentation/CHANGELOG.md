@@ -47,10 +47,29 @@ All notable changes to this project will be documented in this file.
 
 
 ## [1.2.0] - 2024-10-18
-### Changed
+
+### Added
+- Added in several art-related image files to `images` directory
+  - art_charcoal.jpg
+  - art_color_heads.jpg
+  - art_david_head.jpg
+  - art_inkpen.jpg
+  - art_inversion.jpg
+  - art_selfportrait.jpg
+  - art_skull.jpg
+  - art_watercolor.jpg
+
+#### Added to `Art Projects` Page:
+- Implemented a gallery feature in the `Art Projects` page
+- Added a `script.js` file. Currently contains code exclusively used to enhance the gallery within the `Art Projects` page.
+
+#### Added to `Code Projects` Page:
 - Created 4 mock project cards within my `Code Projects` page. Each project card includes:
    - a placeholder image
    - a project name
    - a description
    - technology stack
    - a GitHub repo link
+
+### Changed
+- Added comments within `styles.css` file to clarify the purpose of each CSS class I created.

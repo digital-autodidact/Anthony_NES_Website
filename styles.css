@@ -1,3 +1,6 @@
+/* THE PURPOSE OF THIS CODE BLOCK IS TO DECLARE THE OVERALL DESIGN ACROSS MY PERSONAL WEBSITE */
+
+/* The purpose of this CSS class is ____ */
 body {
     background-color: #f0f0f0; /* Change background color */
     font-family: 'Press Start 2P', cursive; /* NES-style font */
@@ -5,49 +8,33 @@ body {
     padding: 0;
 }
 
-/* This section colors the header section */
-header {
-    background-color: #333;
-    padding: 10px 0;
-}
-
+/* The purpose of this CSS class is to ____ */
 h1 {
     color: black; /* Change the title color */
     text-align: center; /* Center the title */
     padding:25px;
 }
 
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 20px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-nav ul li a:hover {
-    color: #ff6347;  /* Change to a different color on hover */
+h2 {
+    color: black; /* Change the title color */
+    text-align: left; /* Center the title */
 }
 
 
+h3 {
+    color: black; /* Change the title color */
+    text-align: center; /* Center the title */
+    padding: 25px;
+}
+
+
+/* The purpose of this CSS class is ____ */
 main {
     padding: 20px;
     text-align: left; /* Left alights the text within main */
 }
 
-
+/* The purpose of this CSS class is ____ */
 section {
     margin: 20px;
     padding: 20px;
@@ -56,8 +43,51 @@ section {
 }
 
 
-/* This section styles the project cards on my 'Code Projects' page */
 
+
+/* THE PURPOSE OF THIS CODE BLOCK IS TO STYLE THE CONTENT SPECIFICALLY ON 
+THE NAVIGATION MENU DISPLAYED ON ALL WEBPAGES ON MY SITE*/
+
+/* The purpose of this CSS class is ____ */
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+/* The purpose of this CSS class is ____ */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* The purpose of this CSS class is ____ */
+nav ul li {
+    margin: 0 20px;
+}
+
+/* The purpose of this CSS class is ____ */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+/* The purpose of this CSS class is ____ */
+nav ul li a:hover {
+    color: #ff6347;  /* Change to a different color on hover */
+}
+
+
+
+
+/* THE PURPOSE OF THIS CODE BLOCK IS TO STYLE THE CONTENT SPECIFICALLY ON 
+MY 'CODE PROJECTS' PAGE */
+
+/* The purpose of this CSS class is to ____ */
 .project-card {
     font-family: 'Press Start 2P', cursive; /* NES-style font */
     background-color: #fff;
@@ -71,20 +101,26 @@ section {
     vertical-align: top; /* Aligns the cards to the top */
 }
 
+/* The purpose of this CSS class is to ____ */
 .project-card img {
     max-width: 100%;
     border-radius: 5px;
 }
 
+/* The purpose of this CSS class is to ____ */
 .project-card h2 {
     font-size: 1.5rem;
     margin: 10px 0;
+    color: black; /* Change the title color */
+    text-align: center; /* Center the title */
 }
 
+/* The purpose of this CSS class is to ____ */
 .project-card p {
     font-size: 1rem;
 }
 
+/* The purpose of this CSS class is to ____ */
 .project-card a {
     display: inline-block;
     margin-top: 10px;
@@ -92,6 +128,104 @@ section {
     text-decoration: none;
 }
 
+/* The purpose of this CSS class is to ____ */
 .project-card a:hover {
     text-decoration: underline;
 }
+
+
+
+/* THE PURPOSE OF THIS CODE BLOCK IS TO STYLE THE CONTENT SPECIFICALLY ON 
+MY 'ART PROJECTS' PAGE */
+
+/* The purpose of this CSS class is to ____ */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px;
+    padding: 20px;
+}
+
+/* The purpose of this CSS class is to ____ */
+.art-project {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+/* The purpose of this CSS class is to ____ */
+.art-project:hover {
+    transform: scale(1.10);
+}
+
+/* The purpose of this CSS class is to ____ */
+.art-project img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* The purpose of this CSS class is to ____ */
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px;
+    display: none; 
+}
+
+
+/* The purpose of this CSS class is to ____ */
+.lightbox {
+    display: none; 
+    position: fixed; 
+    z-index: 1000; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+/* The purpose of this CSS class is to ____ */
+.lightbox-content {
+    text-align: center;
+}
+
+/* The purpose of this CSS class is to ____ */
+.lightbox-caption {
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* The purpose of this CSS class is to ____ */
+.lightbox img {
+    max-width: 70%;
+    max-height: 60%;
+}
+
+/* The purpose of this CSS class is to ____ */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+
