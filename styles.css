@@ -1,11 +1,55 @@
 body {
     background-color: #f0f0f0; /* Change background color */
     font-family: 'Press Start 2P', cursive; /* NES-style font */
+    margin: 0;
+    padding: 0;
+}
+
+/* This section colors the header section */
+header {
+    background-color: #333;
+    padding: 10px 0;
 }
 
 h1 {
+    color: black; /* Change the title color */
     text-align: center; /* Center the title */
+    padding:25px;
 }
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6347;  /* Change to a different color on hover */
+}
+
+
+main {
+    padding: 20px;
+    text-align: left; /* Left alights the text within main */
+}
+
+
+
+
 
 section {
     margin: 20px;
@@ -16,25 +60,3 @@ section {
 
 
 
-
-
-
-
-
-/*
-<style>
-body {
-    background-color: #1a1a1a;
-    color: white;
-    text-align: center;
-
-}
-.social-icons {
-    margin: 20px 0;
-}
-.social-icons a {
-    margin: 0 15px;
-    text-decoration: none;
-}
-</style>
-*/
