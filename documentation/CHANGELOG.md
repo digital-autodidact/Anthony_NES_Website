@@ -88,3 +88,46 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - Added comments within `styles.css` file to clarify the purpose of each CSS class I created.
 - Added a section within `styles.css` file dedicated to styling `Questbook` page
+
+
+## [1.3.0] - 2024-10-19
+
+### Added
+- The `Player Stats` page is now ready to be deployed to cPanel!
+
+- Created HTML structure for `Player Stats` page to include:
+   - `Player Skills` section
+   - `Education` section
+   - `Hackathons & CTF Competitions` section
+   - `Work Experience` section
+   - `Noteworthy Deeds` section
+   - `Download Resume` section
+
+- Created HTML structure for `Contact Me` page to include:
+   - `Welcome` section
+   - `Start a Conversation` section
+   - `Contact Form` section
+   - `Download My Resume` section
+
+- Created dedicated code block for `Contact Me` page within `styles.css` file
+
+
+### Changed
+- Redesigned footer section across all pages to include only LinkedIn, GitHub, and Instagram icons; centered elements on a black background
+
+- Updated `main` CSS class in `styles.css` file to add whitespace margins for enhanced readability
+
+- Reorganized HTML structure in `My Code Projects` and `My Art Projects` pages to include:
+   - `What I'm Doing Now` section
+   - `My Dream` section
+   - `What's Next?` section
+
+- Improved design of several webpages by replacing custom section headings with `<section>` tags for better clarity:
+   - `My Code Projects` page 
+   - `My Art Projects` page
+   - `Questbook` page
+
+- Renamed `Accomplishments` page to `Player Stats` and updated header sections throughout the site
+
+
+

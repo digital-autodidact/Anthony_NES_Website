@@ -338,3 +338,56 @@ MY 'PLAYER STATS' PAGE */
 }
 
 
+
+/* THE PURPOSE OF THIS CODE BLOCK IS TO STYLE THE CONTENT SPECIFICALLY ON 
+MY 'CONTACT' PAGE */
+
+/* The purpose of this CSS class is to ____ */
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* The purpose of this CSS class is to ____ */
+.section {
+    margin: 20px 0;
+}
+
+/* The purpose of this CSS class is to ____ */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* The purpose of this CSS class is to ____ */
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* The purpose of this CSS class is to ____ */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* The purpose of this CSS class is to ____ */
+a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+/* The purpose of this CSS class is to ____ */
+a:hover {
+    text-decoration: underline;
+}
+
+/* The purpose of this CSS class is to ____ */
+.resume {
+    text-align: center;
+}
