@@ -111,6 +111,16 @@ All notable changes to this project will be documented in this file.
 
 - Created dedicated code block for `Contact Me` page within `styles.css` file
 
+- Created a `favicon` directory to store favicon files
+- Implemented unique favicons for the following pages:
+  - `About Me` page
+  - `Art Projects` page
+  - `Code Projects` page
+  - `Contact` page
+  - `Index.html` page
+  - `Player Stats` page
+  - `Questbook` page
+
 
 ### Changed
 - Redesigned footer section across all pages to include only LinkedIn, GitHub, and Instagram icons; centered elements on a black background

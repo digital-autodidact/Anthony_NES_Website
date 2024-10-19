@@ -2,10 +2,14 @@
 
 /* The purpose of this CSS class is ____ */
 body {
-    background-color: #f0f0f0; /* Change background color */
+    background-color: #f0f0f0; /* Fallback background color */
     font-family: 'Press Start 2P', cursive; /* NES-style font */
     margin: 0;
     padding: 0;
+    background-image: url('backgrounds/night_moon.png'); /* Path to your background image */
+    background-size: cover; /* Make it cover the full screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
 }
 
 /* The purpose of this CSS class is to ____ */
@@ -93,6 +97,16 @@ nav ul li a {
 /* The purpose of this CSS class is ____ */
 nav ul li a:hover {
     color: #ff6347;  /* Change to a different color on hover */
+}
+
+
+/* THE PURPOSE OF THIS CODE BLOCK IS TO STYLE THE CONTENT SPECIFICALLY ON 
+MY HOME PAGE */
+
+.pixelated_logo {
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    align-items: left;
 }
 
 
@@ -343,7 +357,7 @@ MY 'PLAYER STATS' PAGE */
 MY 'CONTACT' PAGE */
 
 /* The purpose of this CSS class is to ____ */
-.container {
+.contactpage-container {
     max-width: 800px;
     margin: auto;
 }
