@@ -23,7 +23,7 @@ h2 {
 
 h3 {
     color: black; /* Change the title color */
-    text-align: center; /* Center the title */
+    text-align: left;
     padding: 25px;
 }
 
@@ -100,6 +100,8 @@ MY 'CODE PROJECTS' PAGE */
     display: inline-block; /* Allow the cards to flow inline */
     vertical-align: top; /* Aligns the cards to the top */
 }
+
+
 
 /* The purpose of this CSS class is to ____ */
 .project-card img {
@@ -228,4 +230,60 @@ MY 'ART PROJECTS' PAGE */
 }
 
 
+/* THE PURPOSE OF THIS CODE BLOCK IS TO STYLE THE CONTENT SPECIFICALLY ON 
+MY 'QUESTBOOK' PAGE */
 
+
+/* The purpose of this CSS class is to ____ */
+.quest {
+    display: flex; /* Use flexbox to align image and text */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+/* The purpose of this CSS class is to ____ */
+.image-container {
+    width: 30%; /* Width of the image container */
+    margin-right: 20px; /* Space between image and text */
+}
+
+/* The purpose of this CSS class is to ____ */
+.quest-image {
+    width: 100%; /* Image takes up the full width of its container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+}
+
+/* The purpose of this CSS class is to ____ */
+.quest-description {
+    width: 70%; /* The text takes the rest of the container */
+}
+
+/* The purpose of this CSS class is to ____ */
+.quest h2 {
+    color: #333;
+}
+
+/* The purpose of this CSS class is to ____ */
+.desire, .goal, .description, .recommended {
+    margin: 10px 0;
+}
+
+/* The purpose of this CSS class is to ____ */
+.link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* The purpose of this CSS class is to ____ */
+.link:hover {
+    background-color: red;
+}

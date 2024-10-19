@@ -71,5 +71,20 @@ All notable changes to this project will be documented in this file.
    - technology stack
    - a GitHub repo link
 
+- Added content to `My Code Projects` page:
+   - `My Story As A Developer` section
+   - `Favorite Technologies` section
+
+### Added to `Questbook` Page:
+- Added HTML sections to `questbook.html` page:
+   - `What is a Quest?` section
+   - `What is a Questbook?` section
+   - `Elements of a Good Quest` section
+   - `My Currently Active` Quests section
+   - `My Master Quest` section
+   - `Major Life Quests` section
+   - `Full Quest List` section
+
 ### Changed
 - Added comments within `styles.css` file to clarify the purpose of each CSS class I created.
+- Added a section within `styles.css` file dedicated to styling `Questbook` page
