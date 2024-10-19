@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Art Projects</title>
+    <link rel="stylesheet" href="https://unpkg.com/nes.css/css/nes.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <link rel="icon" type="image/x-icon" href="https://cdn4.iconfinder.com/data/icons/pacman-8-bit/147/ghost_1-512.png">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about-me.html">About Me</a></li>
+              <li><a href="code-projects.html">Code Projects</a></li>
+              <li><a href="art-projects.html">Art Projects</a></li>
+              <li><a href="questbook.html">Quests</a></li>
+              <li><a href="player-stats.html">Player Stats</a></li>
+              <li><a href="contact-page.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <h1>My Art Projects</h1>
+
+        <section>
+            <h2>My Story As An Artist</h2>
+            <p>Art is a way for me to express myself and my creativity. I enjoy creating art using various mediums and tools.</p>
+            <p>I have created a variety of drawings, paintings, and photographs. I find inspiration in people, buildings, and everyday life. I hope you enjoy viewing my art projects!</p>
+        </section>
+
+        <section>
+            <h2>What I'm Doing Now</h2>
+            <p>I am currently working on a series of charcoal drawings inspired by the human figure. I am also working on a series of watercolor paintings inspired by nature.</p>
+            <p>I am currently a student enrolled in the Compass Atelier's <a href="https://www.thecompassatelier.com/master-artist-program" target="_blank">MAP art program</a>!</p>
+            <p>Feel free to contact me if you have any questions or would like to purchase any of my artworks!</p>
+        </section>
+
+        <section>
+            <h2>My Dream</h2>
+            <p>My dream is to become a professional artist and have my own art studio. I want to create art that inspires others and brings joy to their lives.</p>
+        </section>
+
+
+        <section>
+            <h2>Favorite Art Mediums</h2>
+            <p>Here are some of my favorite art mediums:</p>
+            <ul>
+                <li>Charcoal</li>
+                <li>Watercolor</li>
+                <li>Pen and Ink</li>
+                <li>Acrylic Paint</li>
+                <li>Photography</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Art Gallery</h2>
+         
+            <p>Here are some of the things I created. Click on an image to view more details.</p>
+
+            <div class="gallery">
+                <div class="art-project" onclick="openLightbox(); currentSlide(1)">
+                    <img src="images/art_example.jpg" alt="Artwork Title 1">
+                    <h3 class="art-title">Hazy Memories of Her</h3>
+                    <div class="caption">
+                        <p class="art-description">I created this picture for a friend I lost.</p>
+                    </div>
+                </div>
+
+                <div class="art-project" onclick="openLightbox(); currentSlide(2)">
+                    <img src="images/art_charcoal.jpg" alt="Artwork Title 2">
+                    <h3 class="art-title">Ariana Doodle</h3>
+                    <div class="caption">
+                        <p class="art-description">I created this picture because I like drawing in charcoal.</p>
+                    </div>
+                </div>
+
+                <div class="art-project" onclick="openLightbox(); currentSlide(3)">
+                    <img src="images/art_color_heads.jpg" alt="Artwork Title 3">
+                    <h3 class="art-title">Color Study</h3>
+                    <div class="caption">
+                        <p class="art-description">I created this picture because I like drawing ____.</p>
+                    </div>
+                </div>
+
+                <div class="art-project" onclick="openLightbox(); currentSlide(4)">
+                    <img src="images/art_david_head.jpg" alt="Artwork Title 4">
+                    <h3 class="art-title">David Bust</h3>
+                    <div class="caption">
+                        <p class="art-description">I created this picture because I like drawing ____.</p>
+                    </div>
+                </div>
+
+                <div class="art-project" onclick="openLightbox(); currentSlide(5)">
+                    <img src="images/art_inkpen.jpg" alt="Artwork Title 5">
+                    <h3 class="art-title">Boat on a Upset Sea</h3>
+                    <div class="caption">
+                        <p class="art-description">I created this picture because I like drawing ____.</p>
+                    </div>
+                </div>
+
+                <div class="art-project" onclick="openLightbox(); currentSlide(6)">
+                    <img src="images/art_inversion.jpg" alt="Artwork Title 6">
+                    <h3 class="art-title">Inverse Value Exercise</h3>
+                    <div class="caption">
+                        <p class="art-description">I created this picture because I like drawing ____.</p>
+                    </div>
+                </div>
+
+                <div class="art-project" onclick="openLightbox(); currentSlide(7)">
+                    <img src="images/art_selfportrait.jpg" alt="Artwork Title 7">
+                    <h3 class="art-title">Self-Portrait</h3>
+                    <div class="caption">
+                        <p class="art-description">I created this picture because I like drawing ____.</p>
+                    </div>
+                </div>
+
+                <div class="art-project" onclick="openLightbox(); currentSlide(8)">
+                    <img src="images/art_watercolor.jpg" alt="Artwork Title 8">
+                    <h3 class="art-title">Watercolor Exercise</h3>
+                    <div class="caption">
+                        <p class="art-description">I created this picture because I like drawing ____.</p>
+                    </div>
+                </div>
+
+                <!-- Repeat for additional artworks -->
+            </div>
+            
+            <!-- Lightbox Modal -->
+            <div id="lightbox" class="lightbox">
+                <span class="close" onclick="closeLightbox()">Close</span>
+                <div class="lightbox-content">
+                    <img id="lightbox-img" alt="">
+                    <div id="lightbox-caption" class="lightbox-caption"></div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>What's next?</h2>
+            <p>I am planning to create a series of oil paintings inspired by the human figure. I am also planning to create a series of digital illustrations inspired by fantasy and science fiction.</p>
+            <p>Like what you saw here? Wanna hire me to work on a project for you? Feel free to contact me if you'd like to hire me as a freelance web developer!</p>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+    
+    <footer>
+        
+        <section>
+            <p>Follow me on one of my social media accounts!</p>
+            <div>
+                <a href = "https://www.linkedin.com/in/anthony-avelar/">
+                    <i class="nes-icon linkedin is-medium"></i>
+                </a>
+                <a href = "https://github.com/MegaPing">
+                    <i class="nes-icon github is-medium"></i>
+                </a>
+                <a href = "https://www.instagram.com/digitalautodidact/">
+                    <i class="nes-icon instagram is-medium"></i>
+                </a>
+        </section>
+
+    </footer>
+
+</body>
+</html>

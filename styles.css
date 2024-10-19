@@ -15,12 +15,13 @@ h1 {
     padding:25px;
 }
 
+/* The purpose of this CSS class is to ____ */
 h2 {
     color: black; /* Change the title color */
     text-align: left; /* Center the title */
 }
 
-
+/* The purpose of this CSS class is to ____ */
 h3 {
     color: black; /* Change the title color */
     text-align: left;
@@ -30,8 +31,13 @@ h3 {
 
 /* The purpose of this CSS class is ____ */
 main {
+    text-align: left;
+    max-width: 80%;
+    margin: 20px auto;
     padding: 20px;
-    text-align: left; /* Left alights the text within main */
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* The purpose of this CSS class is ____ */
@@ -40,6 +46,14 @@ section {
     padding: 20px;
     border: 2px solid #333;
     border-radius: 10px;
+}
+
+/* The purpose of this CSS class is ____ */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
 }
 
 
@@ -140,15 +154,17 @@ MY 'CODE PROJECTS' PAGE */
 /* THE PURPOSE OF THIS CODE BLOCK IS TO STYLE THE CONTENT SPECIFICALLY ON 
 MY 'ART PROJECTS' PAGE */
 
-/* The purpose of this CSS class is to ____ */
-.gallery {
+/* The purpose of this CSS class is to create a responsive gallery layout 
+   that adjusts the number of columns based on the available space. */
+   .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 16px;
     padding: 20px;
 }
 
-/* The purpose of this CSS class is to ____ */
+/* The purpose of this CSS class is to style individual art project items 
+   within the gallery, giving them a nice border, background, and transition effect on hover. */
 .art-project {
     position: relative;
     overflow: hidden;
@@ -159,19 +175,22 @@ MY 'ART PROJECTS' PAGE */
     transition: transform 0.2s;
 }
 
-/* The purpose of this CSS class is to ____ */
+/* The purpose of this CSS class is to apply a scaling effect to the art project item 
+   when hovered over, creating a visual emphasis. */
 .art-project:hover {
     transform: scale(1.10);
 }
 
-/* The purpose of this CSS class is to ____ */
+/* The purpose of this CSS class is to ensure that images within art project items 
+   are fully responsive, maintaining their aspect ratio while fitting the container. */
 .art-project img {
     width: 100%;
     height: auto;
     display: block;
 }
 
-/* The purpose of this CSS class is to ____ */
+/* The purpose of this CSS class is to create a caption overlay that appears 
+   at the bottom of the art project item, styled with a semi-transparent background. */
 .caption {
     position: absolute;
     bottom: 0;
@@ -183,8 +202,8 @@ MY 'ART PROJECTS' PAGE */
     display: none; 
 }
 
-
-/* The purpose of this CSS class is to ____ */
+/* The purpose of this CSS class is to set up a lightbox display for viewing images 
+   in full-screen mode, initially hidden and covering the entire viewport with a dark background. */
 .lightbox {
     display: none; 
     position: fixed; 
@@ -198,12 +217,13 @@ MY 'ART PROJECTS' PAGE */
     align-items: center;
 }
 
-/* The purpose of this CSS class is to ____ */
+/* The purpose of this CSS class is to center-align the content within the lightbox. */
 .lightbox-content {
     text-align: center;
 }
 
-/* The purpose of this CSS class is to ____ */
+/* The purpose of this CSS class is to style the caption for the image displayed in the 
+   lightbox, ensuring it stands out with padding and a background. */
 .lightbox-caption {
     margin-top: 10px;
     background-color: rgba(0, 0, 0, 0.7);
@@ -213,13 +233,15 @@ MY 'ART PROJECTS' PAGE */
     text-align: center;
 }
 
-/* The purpose of this CSS class is to ____ */
+/* The purpose of this CSS class is to limit the size of images displayed in the lightbox,
+   keeping them within a specified maximum width and height to maintain a good appearance. */
 .lightbox img {
     max-width: 70%;
     max-height: 60%;
 }
 
-/* The purpose of this CSS class is to ____ */
+/* The purpose of this CSS class is to position the close button in the lightbox, 
+   providing a large, easily clickable area to exit the lightbox view. */
 .close {
     position: absolute;
     top: 10px;
@@ -287,3 +309,32 @@ MY 'QUESTBOOK' PAGE */
 .link:hover {
     background-color: red;
 }
+
+
+
+
+/* THE PURPOSE OF THIS CODE BLOCK IS TO STYLE THE CONTENT SPECIFICALLY ON 
+MY 'PLAYER STATS' PAGE */
+
+
+/* The purpose of this CSS class is to ____ */
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+/* The purpose of this CSS class is to ____ */
+.download-button:hover {
+    background: red;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+
