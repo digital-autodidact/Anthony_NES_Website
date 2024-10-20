@@ -1,6 +1,7 @@
 # Website Issues and Fixes
 ```
-## Issue X: [Brief Description of the Issue]
+## Issue #X: [Brief Description of the Issue]
+- **Status:** [UNRESOLVED]
 - **Date:** YYYY-MM-DD
 - **Description:**
 - **Resolution:**
@@ -10,6 +11,7 @@
 ```
 
 ## Issue #1: "Press Start 2P" fontfamily failed to render (on mobile device)
+- **Status:** RESOLVED
 - **Date:** 2024-10-17
 - **Description:**
   - The "Press Start 2P" fontfamily fails to render on the anthonyavelar.com website when accessing it through a smartphone or Ipad.
@@ -31,10 +33,11 @@
   - Additionally, Google has a respository of different icons I can use. Also explore this webpage later to look for new icons: https://fonts.google.com/icons
 
 
-## Issue #2: Project Cards on `About Me` Page Are Unevenly Spaced and Have Inconsistently Sized Images
+## Issue #2: Project Cards on `About Me` Page Are Unevenly Spaced
+- **Status:** RESOLVED
 - **Date:** 2024-10-18
 - **Description:**
-  - The project cards I built on the `About Me` page are bunched up on the left side of the screen. This displeases me; I wish to see them evenly spaced apart on the screen. Additionally, the images used within the project cards are inconsistently sized. I wish to see them all a standard size.
+  - The project cards I built on the `About Me` page are bunched up on the left side of the screen. This displeases me; I wish to see them evenly spaced apart on the screen. 
 - **Resolution:**
   - Explain the solution you implemented.
 - **Learnings:**
@@ -42,8 +45,35 @@
 
 
 
+## Issue #3: The footer section on all the pages on my website are overly thick
+- **Status:** [UNRESOLVED]
+- **Date:** 2024-10-19
+- **Description:**
+  - I am displeased with appearance of the footer section in all my webpages. The footer section looks too thick to my eyes, I want to make it as slim as possible. However, I don't know how to alter the size of the footer. I attempted enlisting the help of DeepAI but its suggestions didn't help me slim down the footer. I will probably need to dedicate time to learn how to adjust the footer size via my own investigation. 
+- **Resolution:**
+  - Explain the solution you implemented.
+- **Learnings:**
+  - What did you learn from this issue?
 
 
-
+## Issue #4: Art Gallery images on `Art Projects` Page do not display their captions when they are expanded
+- **Status:** [UNRESOLVED]
+- **Date:** 2024-10-20
+- **Description:**
+  - There is an issue with the gallery images within the `Art Project` pages. When you click on one of them, the image expands to a large size. The issue is that the image expands too much, to the point where one cannot see the caption that's supposed to be visible.
+- **Resolution:**
+  - Explain the solution you implemented.
+- **Learnings:**
+  - What did you learn from this issue?
 
   
+
+## Issue #5: Project Cards on `About Me` Page Have Inconsistently Sized Images
+- **Status:** [UNRESOLVED]
+- **Date:** 2024-10-20
+- **Description:**
+  - The project cards I built on the `About Me` page have images. I noticed that the images I used are inconsistently sized, which displeases me. I want me to resize them to be a consistent size.
+- **Resolution:**
+  - Explain the solution you implemented.
+- **Learnings:**
+  - What did you learn from this issue?

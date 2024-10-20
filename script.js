@@ -1,3 +1,6 @@
+/* THE PURPOSE OF THIS CODE BLOCK IS TO ALTER BEHAVIOR SPECIFICALLY ON 
+MY 'code-projects' PAGE */
+
 function openLightbox() {
     document.getElementById("lightbox").style.display = "flex";
 }
@@ -33,7 +36,8 @@ MY 'SPLASH' PAGE */
 const messageLines = [
     "Hello curious visitor",
     "Welcome to a world of my creation,",
-    "won't you come in?",
+    "won't you come inside?",
+
 ];
 let index = 0;
 let lineIndex = 0;

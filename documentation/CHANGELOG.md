@@ -152,3 +152,18 @@ All notable changes to this project will be documented in this file.
 
 
 
+## [1.3.1] - 2024-10-20
+
+### Added
+- Added images to `Code Projects`, `Art Projects`, and `Player Stats` pages.
+
+### Changed
+- Rewrote the content in project cards within the `Code Projects` page for clarity
+
+### Fixed
+- Centered the project cards by editing `styles.css` file. This fixed issue #2. See `Issues.md` file for context.
+- Removed hypothetical project cards from `Code Projects` page. Only the projects I am actively working on remain.
+
+
+
+
