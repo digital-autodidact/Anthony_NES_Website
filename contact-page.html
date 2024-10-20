@@ -9,6 +9,10 @@
     <link rel="icon" type="image/x-icon" href="favicons/contact_icon.png">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
+    <audio id="bg-music" loop>
+        <source src="music/Pure_Imagination.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
 </head>
 
 <body>
@@ -68,6 +72,12 @@
                 </a>
             </section>
         </div>
+
+        <div class="music-container">
+            <button id="play-button" class="play-button">🎵</button>
+            <!-- Music button to control audio -->
+        </div>
+
     </main>
 
     <footer>
@@ -86,6 +96,9 @@
             </div>
         </section>
     </footer>
+
+    <script src="scripts/musicbutton.js"></script> <!-- Link to the musicbutton.js file -->
+
 
 </body>
 

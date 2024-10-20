@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me Page</title>
     <link rel="stylesheet" href="https://unpkg.com/nes.css/css/nes.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
     <link rel="icon" type="image/x-icon" href="favicons/man_icon.png">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
+    <audio id="bg-music" loop>
+        <source src="music/Pure_Imagination.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
 </head>
-
 
 <body>
     <header>
@@ -46,7 +49,7 @@
                     <h2>My Life Philosophy</h2>
                     <p>I'm a firm believer in the power of self-improvement and lifelong learning. I'm always looking for ways to challenge myself and grow as a human being.</p>
                     <p>I believe life is a game.</p>
-                    <p>I suscribe to these ideals:</p>
+                    <p>I subscribe to these ideals:</p>
                     <ul>
                         <li>The Strenuous Life</li>
                         <li>Renaissance Man Ideal</li>
@@ -70,10 +73,10 @@
                 
                 <section>
                     <h2>Interests</h2>
-                    <p> Things that fascinate me, but that don't typically show up in my resume:</p>
+                    <p>Things that fascinate me, but that don't typically show up in my resume:</p>
                     <ul>
                         <li>Gamification</li>
-                        <li>Retro Videogames</li>
+                        <li>Retro Video Games</li>
                         <li>Minecraft</li>
                         <li>The Italian Renaissance</li>
                         <li>Social Psychology</li>
@@ -82,6 +85,7 @@
                         <li>Kintsugi (the art of repairing broken pottery)</li>
                         <li>Music Box Melodies</li>
                         <li>The Dictionary of Obscure Sorrows</li>
+                    </ul>
                 </section>
                 
                 <section>
@@ -89,34 +93,33 @@
                     <p>Here are some roles I've played in my life:</p>
 
                     <h3>Autodidact</h3>
-                    <ui>
-                        <li>"I'm not afraid to make mistakes because I know I'll learn from them"</li>
-                        <li>"I can teach myself anything"</li>
+                    <ul>
+                        <li>"I'm not afraid to make mistakes because I know I'll learn from them."</li>
+                        <li>"I can teach myself anything."</li>
                         <li>"I aim to continuously learn and grow in my field and contribute positively to the community."</li>
-                    </ui>
+                    </ul>
 
                     <h3>Artist</h3>
-                    <ui>
-                        <li>"I can draw</li>
-                        <li>"I can paint"</li>
-                        <li>"I can animate"</li>
-                        <li>"I am good at photography"</li>
-                    </ui>
+                    <ul>
+                        <li>"I can draw."</li>
+                        <li>"I can paint."</li>
+                        <li>"I can animate."</li>
+                        <li>"I am good at photography."</li>
+                    </ul>
 
                     <h3>Programmer</h3>
-                    <ui>
-                        <li>"I can code"</li>
-                        <li>"I want to become a full stack developer"</li>
+                    <ul>
+                        <li>"I can code."</li>
+                        <li>"I want to become a full stack developer."</li>
                         <li>"I want to build beautiful 3D interactive websites."</li>
-                    </ui>
+                    </ul>
 
                     <h3>Detective</h3>
-                    <ui>
-                        <li>"I'm a good notemaker"</li>
-                        <li>"I am observant"</li>
-                        <li>"I am good at OSINT"</li>
-                    </ui>
-
+                    <ul>
+                        <li>"I'm a good notemaker."</li>
+                        <li>"I am observant."</li>
+                        <li>"I am good at OSINT."</li>
+                    </ul>
                 </section>
 
                 <section>
@@ -124,10 +127,13 @@
                     <p>Ultimately, my dream is to be known as a Renaissance Man of the 21st century!</p>
                     <p>I intend to spend the rest of my life taking risks, learning from my mistakes, and building projects related to the quirky things I discover along the way.</p>
                     <p>If you share a similar dream as mine or just share a mutual interest in art or tech, follow me on one of my socials and let's talk! An easy conversation starter with me is "What have you been learning about lately?"</p>
-
                 </section>
             </div>
+        </div>
 
+        <div class="music-container">
+            <button id="play-button" class="play-button">🎵</button>
+            <!-- Music button to control audio -->
         </div>
     </main>
 
@@ -147,6 +153,8 @@
             </div>
         </section>
     </footer>
+
+    <script src="scripts/musicbutton.js"></script> <!-- Link to the musicbutton.js file -->
 
 </body>
 </html>

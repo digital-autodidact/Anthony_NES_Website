@@ -9,12 +9,14 @@
     <link rel="icon" type="image/x-icon" href="favicons/stats_icon.png">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
+    <audio id="bg-music" loop>
+        <source src="music/Pure_Imagination.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
 </head>
-
 
 <body>
     <header>
-
         <nav>
             <ul>
               <li><a href="index.html">Home</a></li>
@@ -28,12 +30,10 @@
         </nav>
     </header>
 
-
     <main>
         <h1>Player Stats</h1>
 
         <img src="images/playerstat.jpg" alt="player stat screen" class="player-image"> <!-- Add your image here -->
-
 
         <section id="skills">
             <h2>Player Skills</h2>
@@ -61,58 +61,50 @@
                 <li>Photography</li>
                 <li>Video Editing</li>
             </ul>
-
         </section>
-        
 
-        
         <section id="education">
             <h2>Education</h2>
-
             <h3>Formal Education & Training</h3>
-                <ul>
-                    <li>Associates in Cybersecurity - Montgomery College, 2024</li>
-                    <li>Bachelors in Applied Cybersecurity - SANS Technology Institute, 2026</li>
-                </ul>
+            <ul>
+                <li>Associates in Cybersecurity - Montgomery College, 2024</li>
+                <li>Bachelors in Applied Cybersecurity - SANS Technology Institute, 2026</li>
+            </ul>
             
             <h3>Bootcamps</h3>
-                <ul>
-                    <li>AWS Cloud Institute</li>
-                    <li>TechMAP</li>
-                    <li>Raices Security+ Prep Course</li>
-                    <li>Per Scholas</li>
-                    <li>Marine Corps Communication-Electronics School</li>
-                </ul>
+            <ul>
+                <li>AWS Cloud Institute</li>
+                <li>TechMAP</li>
+                <li>Raices Security+ Prep Course</li>
+                <li>Per Scholas</li>
+                <li>Marine Corps Communication-Electronics School</li>
+            </ul>
 
             <h3>Non-Traditional Training</h3>
-                <ul>
-                    <li>TryHackMe</li>
-                    <li>HacktheBox</li>
-                    <li>Udemy</li>
-                </ul>
+            <ul>
+                <li>TryHackMe</li>
+                <li>HacktheBox</li>
+                <li>Udemy</li>
+            </ul>
 
             <h3>Conferences & Workshops</h3>
-                <ul>
-                    <li>BSidesCharm</li>
-                    <li>BSidesNoVA</li>
-                    <li>DEFCON</li>
-                </ul>
+            <ul>
+                <li>BSidesCharm</li>
+                <li>BSidesNoVA</li>
+                <li>DEFCON</li>
+            </ul>
 
             <h3>Certifications</h3>
-                <ul>
-                    <li>CompTIA Security+</li>
-                    <li>CompTIA Network+</li>
-                    <li>AWS Certified Practitioner</li>
-                    <li>AWS Cloud Developer</li>
-                </ul>
-
+            <ul>
+                <li>CompTIA Security+</li>
+                <li>CompTIA Network+</li>
+                <li>AWS Certified Practitioner</li>
+                <li>AWS Cloud Developer</li>
+            </ul>
         </section>
 
-
-
-        <section id = "extracurricular-events">
+        <section id="extracurricular-events">
             <h2>Hackathons & CTF Competitions</h2>
-            
             <h3>National Cyber League</h3>
             <p>Bi-annually</p>
             <p>[Add details later]</p>
@@ -132,11 +124,8 @@
             <!-- Add more competitions as needed -->
         </section>
 
-
-
         <section id="work-experience">
             <h2>Work Experience</h2>
-
             <h3>National Nuclear Security Administration</h3>
             <p>June 2024 - Present</p>
             <p>Frontend Developer Intern</p>
@@ -164,25 +153,27 @@
             <!-- Add more job experiences as needed here-->
         </section>
 
-        <section id ="noteworthy">
+        <section id="noteworthy">
             <h2> Noteworthy Deeds</h2>
             <p>Here are some of the biggest accomplishments I'm most proud of:</p>
             <ul>
                 <li>Completed a 5 year enlistment in the Marine Corps</li>
                 <li>Backpacked across East Europe by myself for eight months!</li>
                 <li>Graduated from Montgomery College!</li> 
+            </ul>
         </section>
-
 
         <section id="download-resume">
             <h2>Download My Resume</h2>
             <a href="assets/AnthonyAvelar_Resume.pdf" download class="download-button">2-Page Resume</a>
             <a href="assets/AnthonyAvelar_Resume.pdf" download class="download-button">Extended Resume</a>
         </section>
+
+        <div class="music-container">
+            <button id="play-button" class="play-button">🎵</button>
+            <!-- Music button to control audio -->
+        </div>
     </main>
-
-    <script src="script.js"></script>
-
 
     <footer>
         <section>
@@ -200,6 +191,8 @@
             </div>
         </section>
     </footer>
+
+    <script src="scripts/musicbutton.js"></script> <!-- Link to the musicbutton.js file -->
 
 </body>
 </html>

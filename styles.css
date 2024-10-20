@@ -72,7 +72,40 @@ footer div {
     margin-top: 5px; /* Optional margin above icons */
 }
 
+.music-container {
+    position: fixed; /* Fix it to the bottom left of the viewport */
+    bottom: 60px; /* Gives space above the footer */
+    left: 20px; /* Positioning from the left */
+    display: flex; /* Use flex for alignment */
+    align-items: center; /* Vertical alignment */
+}
 
+.play-button {
+    width: 50px; /* Width of the round button */
+    height: 50px; /* Height of the round button */
+    border-radius: 50%; /* Make the button round */
+    border: none; /* Remove default border */
+    background-color: black; /* Background color */
+    color: white; /* Text color */
+    font-size: 20px; /* Adjust font size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    transition: background 0.3s; /* Smooth background transition */
+}
+
+.play-button:hover {
+    background-color: darkblue; /* Darken button on hover */
+}
+
+/* Styling for praise messages */
+.praise-message {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    color: white; /* Text color */
+    padding: 10px;
+    border-radius: 5px;
+}
 
 
 
@@ -121,6 +154,17 @@ MY HOME PAGE */
     image-rendering: pixelated;
     image-rendering: crisp-edges;
     align-items: left;
+}
+
+.hero-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 25%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #fff;
 }
 
 
@@ -511,11 +555,11 @@ MY 'SPLASH' PAGE */
 }
 
 .music-container {
-    position: absolute; /* Positioning it at the bottom left */
-    bottom: 20px; /* Distance from the bottom */
-    left: 20px; /* Distance from the left */
-    display: flex; /* Use flexbox for alignment */
-    align-items: center; /* Center align vertically */
+    position: fixed; /* Fix it to the bottom left of the viewport */
+    bottom: 60px; /* Gives space above the footer */
+    left: 20px; /* Positioning from the left */
+    display: flex; /* Use flex for alignment */
+    align-items: center; /* Vertical alignment */
 }
 
 .play-button {
@@ -523,16 +567,27 @@ MY 'SPLASH' PAGE */
     height: 50px; /* Height of the round button */
     border-radius: 50%; /* Make the button round */
     border: none; /* Remove default border */
-    background-color: blue; /* Background color */
+    background-color: black; /* Background color */
     color: white; /* Text color */
-    font-size: 24px; /* Adjust font size */
+    font-size: 20px; /* Adjust font size */
     cursor: pointer; /* Change cursor to pointer on hover */
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    transition: background 0.3s; /* Smooth background transition */
+}
+
+.play-button:hover {
+    background-color: darkblue; /* Darken button on hover */
 }
 
 .music-message {
-    color: rgba(255, 255, 255, 0.6); /* Low contrast: white with some transparency */
-    margin-left: 10px; /* Space between the button and the message */
+    color: rgba(255, 255, 255, 0.6); /* Set message text color */
+    margin-left: 50px; /* Space between the button and the message */
     font-size: 1rem; /* Adjust font size as needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background for better contrast */
+    padding: 5px; /* Some padding for the message */
+    border-radius: 5px; /* Rounded corners for the message */
 }
 
 .enter-button {

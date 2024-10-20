@@ -156,9 +156,16 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - Added images to `Code Projects`, `Art Projects`, and `Player Stats` pages.
+- Implemented a music button feature across all pages on my website
+- Implemented a "praiseMessage" feature which generates praise for when a web visitor clicks on the music button
 
 ### Changed
 - Rewrote the content in project cards within the `Code Projects` page for clarity
+- Removed `script.js` file and replaced it with three scripts for better code maintainability:
+   - `art-project.js`
+   - `splash.js`
+   - `musicbutton.js`
+- Updated the styling of the border of the "hero image" used on my homepage
 
 ### Fixed
 - Centered the project cards by editing `styles.css` file. This fixed issue #2. See `Issues.md` file for context.

@@ -9,6 +9,11 @@
     <link rel="icon" type="image/x-icon" href="favicons/terminal_icon.png">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
+    <audio id="bg-music" loop>
+        <source src="music/Pure_Imagination.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
 </head>
 
 <body>
@@ -26,7 +31,6 @@
         </nav>
     </header>
 
-
     <main>
         <h1>My Code Projects</h1>
   
@@ -38,7 +42,6 @@
             <p>I have created a variety of web applications, mobile apps, and games. I hope you enjoy viewing my code projects!</p>
         </section>
 
-
         <section>
             <h2>What I'm Doing Now</h2>
             <p>I am currently a student enrolled in the two programs:
@@ -46,6 +49,7 @@
                     <li>SANS Technology Institute <a href="https://www.sans.edu/cyber-security-programs/bachelors-degree/" target="_blank">Bachelor's Degree in Applied Cybersecurity </a> Program</li>
                     <li>AWS Cloud Institute <a href="https://aws.amazon.com/training/aws-cloud-institute/" target="_blank">Cloud Developer</a> Program</li>
                 </ul>
+            </p>
         </section>
 
         <section>
@@ -53,9 +57,6 @@
             <p>My dream is to become a professional web developer and create beautiful websites and applications that delight people.</p>
             <p>I want to be a web designer who creates beautiful interactive websites with 3D animated graphics</p>
         </section>
-
-
-
 
         <section>
             <h2>Favorite Technologies</h2>
@@ -74,7 +75,6 @@
 
         <section>
             <h2>Project Gallery</h2>
-         
             <p>I like making fun, interactive things with code.</p>
             <p>Here are some of the projects I have worked on:</p>
 
@@ -85,9 +85,9 @@
                     <p>An interactive personal website to showcase my projects and skills.</p>
                     <p><strong>Technologies:</strong></p>
                     <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
+                        <li>HTML/CSS</li>
                         <li>JavaScript</li>
+                        <li>NES CSS Framework</li>
                     </ul>
                     <a href="https://github.com/MegaPing?tab=repositories" target="_blank">
                         <button class="nes-btn is-primary">View Source Code!</button>
@@ -97,7 +97,7 @@
                 <div class="project-card">
                     <img src="images/pokedex.png" alt="Pokedex App">
                     <h2>Pokedex App</h2>
-                    <p>An mobile app that fetches and displays pokemon data based on user input.</p>
+                    <p>A mobile app that fetches and displays Pokemon data based on user input.</p>
                     <p><strong>Technologies:</strong></p>
                     <ul>
                         <li>React Native</li>
@@ -135,8 +135,13 @@
                 <li>Learning how to use Unity for game development</li>
                 <li>Improving my skills in React Native</li>
             </ul>
-        <p>Like what you saw here? Wanna hire me to work on a project for you? Feel free to contact me if you'd like to hire me as a freelance web developer!</p>
+            <p>Like what you saw here? Wanna hire me to work on a project for you? Feel free to contact me if you'd like to hire me as a freelance web developer!</p>
+        </section>
 
+        <div class="music-container">
+            <button id="play-button" class="play-button">🎵</button>
+            <!-- Music button to control audio -->
+        </div>
 
     </main>
     
@@ -156,6 +161,8 @@
             </div>
         </section>
     </footer>
+
+    <script src="scripts/musicbutton.js"></script> <!-- Link to the musicbutton.js file -->
 
 </body>
 </html>

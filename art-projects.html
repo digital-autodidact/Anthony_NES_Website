@@ -9,6 +9,10 @@
     <link rel="icon" type="image/x-icon" href="favicons/art_icon.png">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
+    <audio id="bg-music" loop>
+        <source src="music/Pure_Imagination.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
 </head>
 
 <body>
@@ -26,12 +30,10 @@
         </nav>
     </header>
 
-
     <main>
         <h1>My Art Projects</h1>
 
         <img src="images/artist_role.png" alt="A man drawing a picture" class="art-image"> <!-- Add your image here -->
-
 
         <section>
             <h2>My Story As An Artist</h2>
@@ -51,7 +53,6 @@
             <p>My dream is to become a professional artist and have my own art studio. I want to create art that inspires others and brings joy to their lives.</p>
         </section>
 
-
         <section>
             <h2>Favorite Art Mediums</h2>
             <p>Here are some of my favorite art mediums:</p>
@@ -66,7 +67,6 @@
 
         <section>
             <h2>Art Gallery</h2>
-         
             <p>Here are some of the things I created. Click on an image to view more details.</p>
 
             <div class="gallery">
@@ -136,7 +136,7 @@
 
                 <!-- Repeat for additional artworks -->
             </div>
-            
+
             <!-- Lightbox Modal -->
             <div id="lightbox" class="lightbox">
                 <span class="close" onclick="closeLightbox()">Close</span>
@@ -148,15 +148,21 @@
         </section>
 
         <section>
-            <h2>What's next?</h2>
+            <h2>What's Next?</h2>
             <p>I am planning to create a series of oil paintings inspired by the human figure. I am also planning to create a series of digital illustrations inspired by fantasy and science fiction.</p>
             <p>Like what you saw here? Wanna hire me to work on a project for you? Feel free to contact me if you'd like to hire me as a freelance web developer!</p>
         </section>
 
+        <div class="music-container">
+            <button id="play-button" class="play-button">🎵</button>
+            <!-- Music button to control audio -->
+        </div>
+
     </main>
 
-    <script src="script.js"></script>
-    
+    <script src="scripts/musicbutton.js"></script> <!-- Link to the musicbutton.js file -->
+    <script src="scripts/art-project.js"></script> <!-- Link to art-project.js for additional functionality -->
+
     <footer>
         <section>
             <p>Follow me on one of my social media accounts!</p>

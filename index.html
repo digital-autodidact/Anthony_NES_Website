@@ -9,6 +9,11 @@
     <link rel="icon" type="image/x-icon" href="favicons/home_icon.png">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
+    <audio id="bg-music" loop>
+        <source src="music/Pure_Imagination.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
 </head>
 
 <body>
@@ -27,19 +32,15 @@
         </nav>
     </header>
 
-
     <main>
-
-        
         <h1>Hi, I'm Anthony Avelar!</h1>
-        <img src="images/anthony_profilepic.jpeg" alt="Anthony Avelar" class="nes-container is-rounded" style="display: block; margin: 0 auto; width: 25%; height: auto;">
+        <img src="images/anthony_profilepic.jpeg" alt="Anthony Avelar" class="hero-image" style="display: block; margin: 0 auto; width: 25%; height: auto;">
         
         <section>
-            <h2>About Me</h2>
-            <p> I'm a man on a quest to become a renaissance man of the 21st century!</p>
-            <p> I'm a programmer AND an artist!</p>
-            <p> I like classic videogames! I'm a big fan of gamification!</p>
-
+            <h2>Who am I?</h2>
+            <p>I'm a man on a quest to become a renaissance man of the 21st century!</p>
+            <p>I'm a programmer AND an artist!</p>
+            <p>I like classic video games! I'm a big fan of gamification!</p>
         </section>
 
         <section>
@@ -52,17 +53,20 @@
             </ul>
         </section>
 
-
-
         <section>
-            <h2> Topics I'm Learning About Right Now</h2>
+            <h2>Topics I'm Learning About Right Now</h2>
             <div class="lists">
                 <ul class="nes-list is-disc">
-                  <li>React Native</li>
-                  <li>Drawing the human figure</li>
-                  <li>Building websites (like this one!)</li>
+                    <li>React Native</li>
+                    <li>Drawing the human figure</li>
+                    <li>Building websites (like this one!)</li>
+                </ul>
+            </div>
         </section>
 
+        <div class="music-container">
+            <button id="play-button" class="play-button">🎵</button>
+        </div>
 
     </main>
 
@@ -82,6 +86,10 @@
             </div>
         </section>
     </footer>
+
+
+    <script src="scripts/musicbutton.js"></script> <!-- Link to the musicbutton.js file -->
+
 
 </body>
 </html>
