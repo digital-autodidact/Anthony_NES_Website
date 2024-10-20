@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Site</title>
+    <link rel="stylesheet" href="https://unpkg.com/nes.css/css/nes.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your existing CSS -->
+    <link rel="icon" type="image/x-icon" href="favicons/home_icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <audio id="bg-music" loop>
+        <source src="music/Pure_Imagination.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <style>
+        #typing-message {
+            font-size: 2.5rem; /* Adjust size as needed */
+            color: white; /* Text color */
+            white-space: pre-line; /* Maintain line breaks */
+            overflow: hidden; /* Hide overflow */
+            visibility: visible; /* Make it visible */
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="splash-container">
+        <h1 id="typing-message"></h1> <!-- Updated ID for typing effect -->
+        <a href="index.html" class="enter-button">Enter</a>
+            
+        <div class="music-container">
+            <button id="play-button" class="play-button">🎵</button>
+            <span class="music-message">There are secret melodies throughout my site, look for them!</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Link to the new JavaScript file -->
+
+</body>
+</html>

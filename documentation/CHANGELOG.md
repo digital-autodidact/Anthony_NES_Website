@@ -94,6 +94,7 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - The `Player Stats` page is now ready to be deployed to cPanel!
+- The `Contact` page is now ready to be deployed to cPanel!
 
 - Created HTML structure for `Player Stats` page to include:
    - `Player Skills` section
@@ -109,6 +110,7 @@ All notable changes to this project will be documented in this file.
    - `Contact Form` section
    - `Download My Resume` section
 
+- Created dedicated code block for `Player Stats` page within `styles.css` file
 - Created dedicated code block for `Contact Me` page within `styles.css` file
 
 - Created a `favicon` directory to store favicon files
@@ -121,6 +123,13 @@ All notable changes to this project will be documented in this file.
   - `Player Stats` page
   - `Questbook` page
 
+- Added a background image to all pages on the website
+
+- Created a `splash` page for my website
+  - Added typing animation to welcome message
+  - Implemented toggle functionality for background music button
+  - Updated "Enter" button with hover effect (wiggle and glow)
+  
 
 ### Changed
 - Redesigned footer section across all pages to include only LinkedIn, GitHub, and Instagram icons; centered elements on a black background
@@ -138,6 +147,8 @@ All notable changes to this project will be documented in this file.
    - `Questbook` page
 
 - Renamed `Accomplishments` page to `Player Stats` and updated header sections throughout the site
+
+- Removed redudant sections from the homepage
 
 
 

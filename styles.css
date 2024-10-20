@@ -405,3 +405,113 @@ a:hover {
 .resume {
     text-align: center;
 }
+
+
+
+
+
+/* THE PURPOSE OF THIS CODE BLOCK IS TO STYLE THE DESIGN SPECIFICALLY ON 
+MY 'SPLASH' PAGE */
+
+/* The purpose of this CSS class is to ____ */
+
+.splash-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Take the full viewport height */
+    position: relative; /* Required for absolute positioning of child elements */
+}
+
+.splash-container h1 {
+    color: white; /* Set text color to white */
+    font-size: 2.5rem; /* Adjust as needed */
+    margin: 20px 0;
+    padding: 0 20px; /* Add some padding on the sides */
+}
+
+.music-container {
+    position: absolute; /* Positioning it at the bottom left */
+    bottom: 20px; /* Distance from the bottom */
+    left: 20px; /* Distance from the left */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center align vertically */
+}
+
+.play-button {
+    width: 50px; /* Width of the round button */
+    height: 50px; /* Height of the round button */
+    border-radius: 50%; /* Make the button round */
+    border: none; /* Remove default border */
+    background-color: blue; /* Background color */
+    color: white; /* Text color */
+    font-size: 24px; /* Adjust font size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.music-message {
+    color: rgba(255, 255, 255, 0.6); /* Low contrast: white with some transparency */
+    margin-left: 10px; /* Space between the button and the message */
+    font-size: 1rem; /* Adjust font size as needed */
+}
+
+.enter-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: blue; /* Set the background color to blue */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background 0.3s, transform 0.3s; /* Smooth background and transform transitions */
+    position: relative; /* Required for the shine effect */
+}
+
+/* Wiggle effect */
+@keyframes wiggle {
+    0% { transform: rotate(1deg); }
+    25% { transform: rotate(-1deg); }
+    50% { transform: rotate(1deg); }
+    75% { transform: rotate(-1deg); }
+    100% { transform: rotate(1deg); } 
+}
+
+/* Glow effect */
+.enter-button:hover {
+    animation: wiggle 0.5s; /* Apply wiggle animation */
+    background-color: darkblue; /* Darken button color on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.8), 0 0 20px rgba(0, 0, 255, 0.6); /* Glow effect in blue */
+}
+
+.enter-button:hover {
+    background: blue; /* Darken button color on hover */
+}
+
+.play-button {
+    width: 50px; /* Width of the round button */
+    height: 50px; /* Height of the round button */
+    border-radius: 50%; /* Make the button round */
+    border: none; /* Remove default border */
+    background-color: black; /* Change background color to blue */
+    color: white; /* Text color */
+    font-size: 20px; /* Adjust font size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    position: absolute; /* Position it absolutely within the parent container */
+    bottom: 20px; /* Distance from the bottom */
+    left: 20px; /* Distance from the left */
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    transition: background 0.3s; /* Smooth background transition */
+}
+
+.play-button:hover {
+    background-color: darkblue; /* Darken on hover */
+}
+
+/* The button container and enter button styles remain unchanged */
+.button-container {
+    display: flex;
+    align-items: center; /* Center buttons vertically */
+    margin-top: 20px; /* Space above the button container */
+}
