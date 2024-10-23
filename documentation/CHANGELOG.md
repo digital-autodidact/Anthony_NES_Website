@@ -210,3 +210,16 @@ Edited the website's pages in preparation for deployment. It will be ready soon.
   - Rearranged the order of sections on the page
   - Added button linking to Contact Me page at the bottom
   - Included hypothetical prices for the art pieces
+
+
+- Edited `Questbook` page content:
+  - Streamlined content in the `What is a Quest?` section
+  - Merged `Elements of a Good Quest` section into `What is a Quest?` section
+  - Streamlined content in the `What is a Questbook?` section
+  - Rearranged the order of sections on the page
+  - Created new directory named `quests` with three HTML pages for describing quests:
+    - `main-quests.html`
+    - `master-quest.html`
+    - `side-quests.html`
+
+
