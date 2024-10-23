@@ -15,12 +15,15 @@ All notable changes to this project will be documented in this file.
 ```
 
 ## [1.0.0] - 2024-10-12
+
+
 ### Added
 - Initial release of the anthonyavelar.com website!
 - Implemented NES CSS Framework in the overall design for the website!
 
 
 ## [1.1.0] - 2024-10-17
+
 ### Added
 - Implemented a navigation menu within the header of the website!
 - Implemented an `About Me` webpage
@@ -171,6 +174,24 @@ All notable changes to this project will be documented in this file.
 - Centered the project cards by editing `styles.css` file. This fixed issue #2. See `Issues.md` file for context.
 - Removed hypothetical project cards from `Code Projects` page. Only the projects I am actively working on remain.
 
+
+
+## [1.3.2] - 2024-10-22
+
+### Changed
+
+- Edited content on `index.html` page:
+   - I applied capitalized case to all of the section titles
+   - I rephrased all the section titles as questions instead of statements
+   - I applied the "lists" css class to all the bullet point lists used in the page
+   - I added hyperlinks to the bullet points in the `What Am I Currently Working On?` section
+   - I added emojis onto the bullet points in the `What Am I Learning About Right Now?` section
+
+- Edited content on `About Me` page:
+   - Within the `Roles I Like to Play` section, I replaced the "Detective" role with the "Writer" role
+   - I applied the "lists" css class to all the bullet point lists used in the page
+   - I merged the `Roles I Like to Play` section into the `Life Philosophy` section
+   - I added a button that points to my `Contact Me` page at the bottom of the page
 
 
 
