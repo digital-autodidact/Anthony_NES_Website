@@ -178,20 +178,26 @@ All notable changes to this project will be documented in this file.
 
 ## [1.3.2] - 2024-10-22
 
+Enhanced the website's pages in preparation for deployment. It will be ready soon.
+
 ### Changed
 
 - Edited content on `index.html` page:
-   - I applied capitalized case to all of the section titles
-   - I rephrased all the section titles as questions instead of statements
-   - I applied the "lists" css class to all the bullet point lists used in the page
-   - I added hyperlinks to the bullet points in the `What Am I Currently Working On?` section
-   - I added emojis onto the bullet points in the `What Am I Learning About Right Now?` section
+   - Applied capitalized case to all of the section titles
+   - Rephrased all the section titles as questions instead of statements
+   - Applied the "lists" css class to all the bullet point lists used in the page
+   - Added hyperlinks to the bullet points in the `What Am I Currently Working On?` section
+   - Added emojis onto the bullet points in the `What Am I Learning About Right Now?` section
 
 - Edited content on `About Me` page:
-   - Within the `Roles I Like to Play` section, I replaced the "Detective" role with the "Writer" role
-   - I applied the "lists" css class to all the bullet point lists used in the page
-   - I merged the `Roles I Like to Play` section into the `Life Philosophy` section
-   - I added a button that points to my `Contact Me` page at the bottom of the page
+   - Replaced the "Detective" role with the "Writer" role within the `Roles I Like to Play` section
+   - Applied the "lists" css class to all the bullet point lists used in the page
+   - Merged the `Roles I Like to Play` section into the `Life Philosophy` section
+   - Added a button that points to my `Contact Me` page at the bottom of the page
 
-
-
+- Rewrite content on `Code Projects` page:
+   - Changed the title of the `What I'm Doing Now` section to say `What I'm Learning About Now`
+   - Applied the `lists` and `nes-list is-disc` css classes to all the bullet point lists used in the page
+   - Edited the content of the `What I'm Learning About Now` section
+   - Rearranged the order of the sections on the page
+   - Added a button that points to my `Contact Me` page at the bottom of the page
