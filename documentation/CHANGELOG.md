@@ -178,7 +178,7 @@ All notable changes to this project will be documented in this file.
 
 ## [1.3.2] - 2024-10-22
 
-Enhanced the website's pages in preparation for deployment. It will be ready soon.
+Edited the website's pages in preparation for deployment. It will be ready soon.
 
 ### Changed
 
@@ -195,9 +195,18 @@ Enhanced the website's pages in preparation for deployment. It will be ready soo
    - Merged the `Roles I Like to Play` section into the `Life Philosophy` section
    - Added a button that points to my `Contact Me` page at the bottom of the page
 
-- Rewrite content on `Code Projects` page:
+- Edited content on `Code Projects` page:
    - Changed the title of the `What I'm Doing Now` section to say `What I'm Learning About Now`
    - Applied the `lists` and `nes-list is-disc` css classes to all the bullet point lists used in the page
    - Edited the content of the `What I'm Learning About Now` section
    - Rearranged the order of the sections on the page
    - Added a button that points to my `Contact Me` page at the bottom of the page
+
+
+- Edited `Art Projects` page content:
+  - Changed title of `What I'm Doing Now` section to `What I'm Learning About Now`
+  - Applied `lists` and `nes-list is-disc` CSS classes to all bullet point lists
+  - Edited content in the `What I'm Learning About Now` section
+  - Rearranged the order of sections on the page
+  - Added button linking to Contact Me page at the bottom
+  - Included hypothetical prices for the art pieces
