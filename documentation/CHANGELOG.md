@@ -256,6 +256,8 @@ Edited the website's pages in preparation for deployment. It will be ready soon.
 
 ## [1.4.0] - 2024-10-23
 
+### Added
+
 Added unique music files for each page on the website.
 
 - Added 7 new musicbox files to the `music` directory.
@@ -268,6 +270,17 @@ Added unique music files for each page on the website.
   - Questbook page: `TrainerBattle_PokemonGen1.mp3`
   - PlayerStats page: `FinalBattleVsRival_PokemonGen1.mp3`
   - Contact page: `NationalPark_Pokemon.mp3`
+
+
+## [1.5.0] - 2024-10-23
+
+### Added
+
+Implemented toggle feature for improved readability. Feature will be used across the website.
+
+- Developed a toggle feature for enhanced content accessibility across different sections of the website.
+- Integrated the toggle feature on the homepage to improve content readability.
+
 
 
 

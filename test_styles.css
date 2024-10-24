@@ -2,10 +2,14 @@
 
 /* The purpose of this CSS class is ____ */
 body {
-    background-color: #f0f0f0; /* Change background color */
+    background-color: #f0f0f0; /* Fallback background color */
     font-family: 'Press Start 2P', cursive; /* NES-style font */
     margin: 0;
     padding: 0;
+    background-image: url('backgrounds/night_moon.png'); /* Path to your background image */
+    background-size: cover; /* Make it cover the full screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
 }
 
 /* The purpose of this CSS class is to ____ */
@@ -15,25 +19,20 @@ h1 {
     padding:25px;
 }
 
+/* The purpose of this CSS class is to ____ */
 h2 {
     color: black; /* Change the title color */
     text-align: left; /* Center the title */
 }
 
-
+/* The purpose of this CSS class is to ____ */
 h3 {
     color: black; /* Change the title color */
     text-align: left;
-    padding: 25px;
 }
 
 
 /* The purpose of this CSS class is ____ */
-main {
-    padding: 20px;
-    text-align: left; /* Left alights the text within main */
-}
-
 main {
     text-align: left;
     max-width: 80%;
@@ -51,6 +50,75 @@ section {
     border: 2px solid #333;
     border-radius: 10px;
 }
+
+/* The purpose of this CSS class is ____ */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0; /* Use slightly more padding for a cleaner look */
+}
+
+footer section {
+    display: flex;
+    flex-direction: column; /* Stack message and icons vertically */
+    align-items: center; /* Center content */
+}
+
+footer div {
+    display: flex; /* Display icons in a row */
+    gap: 15px; /* Space between icons */
+    margin-top: 5px; /* Optional margin above icons */
+}
+
+.music-container {
+    position: fixed; /* Fix it to the bottom left of the viewport */
+    bottom: 60px; /* Gives space above the footer */
+    left: 20px; /* Positioning from the left */
+    display: flex; /* Use flex for alignment */
+    align-items: center; /* Vertical alignment */
+}
+
+.play-button {
+    width: 50px; /* Width of the round button */
+    height: 50px; /* Height of the round button */
+    border-radius: 50%; /* Make the button round */
+    border: none; /* Remove default border */
+    background-color: black; /* Background color */
+    color: white; /* Text color */
+    font-size: 20px; /* Adjust font size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    transition: background 0.3s; /* Smooth background transition */
+}
+
+.play-button:hover {
+    background-color: darkblue; /* Darken button on hover */
+}
+
+/* Styling for praise messages */
+.praise-message {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    color: white; /* Text color */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+
+.toggle-icon {
+    margin-right: 8px; /* Space between icon and text */
+    transition: transform 0.3s ease;
+}
+
+/* Rotate chevron when the header is active */
+.toggle-header.active .toggle-icon {
+    transform: rotate(180deg);
+}
+
 
 
 
@@ -92,10 +160,43 @@ nav ul li a:hover {
 }
 
 
+/* THE PURPOSE OF THIS CODE BLOCK IS TO STYLE THE CONTENT SPECIFICALLY ON 
+MY HOME PAGE */
+
+.pixelated_logo {
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    align-items: left;
+}
+
+.hero-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 25%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #fff;
+}
+
+
 
 
 /* THE PURPOSE OF THIS CODE BLOCK IS TO STYLE THE CONTENT SPECIFICALLY ON 
 MY 'CODE PROJECTS' PAGE */
+
+/* The purpose of this CSS class is to ____ */
+.coding-image {
+    display: block;               /* Make it a block element */
+    margin: 20px auto;           /* Center the image with auto horizontal margins and provide spacing around */
+    max-width: 100%;             /* Make it responsive */
+    height: auto;                /* Maintain aspect ratio */
+    border: 2px solid black;      /* Set the border with desired thickness and color */
+    border-radius: 15px;         /* Round the corners of the image */
+    padding: 5px;                /* Optional: Adds space between the border and the image */
+    background-color: #fff;      /* Optional: Sets a background color that contrasts with the border */
+}
 
 /* The purpose of this CSS class is to ____ */
 .project-card {
@@ -145,20 +246,49 @@ MY 'CODE PROJECTS' PAGE */
     text-decoration: underline;
 }
 
+/* The purpose of this CSS class is to ____ */
+.project-gallery {
+    display: flex;
+    flex-wrap: wrap; /* Allows the project cards to wrap onto the next line */
+    justify-content: center; /* Center aligns the cards horizontally */
+    margin: 20px 0; /* Adjust spacing above and below the gallery */
+}
+
+/* The purpose of this CSS class is to ____ */
+.project-card {
+    margin: 10px; /* Add some space between the cards */
+    max-width: 300px; /* Set a maximum width for the project cards */
+    text-align: center; /* Center-aligns text inside project cards */
+}
 
 
 /* THE PURPOSE OF THIS CODE BLOCK IS TO STYLE THE CONTENT SPECIFICALLY ON 
 MY 'ART PROJECTS' PAGE */
 
-/* The purpose of this CSS class is to ____ */
-.gallery {
+
+.art-image {
+    display: block;               /* Make it a block element */
+    margin: 20px auto;           /* Center the image with auto horizontal margins and provide spacing around */
+    max-width: 100%;             /* Make it responsive */
+    height: auto;                /* Maintain aspect ratio */
+    border: 2px solid black;      /* Set the border with desired thickness and color */
+    border-radius: 15px;         /* Round the corners of the image */
+    padding: 5px;                /* Optional: Adds space between the border and the image */
+    background-color: #fff;      /* Optional: Sets a background color that contrasts with the border */
+}
+
+
+/* The purpose of this CSS class is to create a responsive gallery layout 
+   that adjusts the number of columns based on the available space. */
+   .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 16px;
     padding: 20px;
 }
 
-/* The purpose of this CSS class is to ____ */
+/* The purpose of this CSS class is to style individual art project items 
+   within the gallery, giving them a nice border, background, and transition effect on hover. */
 .art-project {
     position: relative;
     overflow: hidden;
@@ -169,19 +299,22 @@ MY 'ART PROJECTS' PAGE */
     transition: transform 0.2s;
 }
 
-/* The purpose of this CSS class is to ____ */
+/* The purpose of this CSS class is to apply a scaling effect to the art project item 
+   when hovered over, creating a visual emphasis. */
 .art-project:hover {
     transform: scale(1.10);
 }
 
-/* The purpose of this CSS class is to ____ */
+/* The purpose of this CSS class is to ensure that images within art project items 
+   are fully responsive, maintaining their aspect ratio while fitting the container. */
 .art-project img {
     width: 100%;
     height: auto;
     display: block;
 }
 
-/* The purpose of this CSS class is to ____ */
+/* The purpose of this CSS class is to create a caption overlay that appears 
+   at the bottom of the art project item, styled with a semi-transparent background. */
 .caption {
     position: absolute;
     bottom: 0;
@@ -193,8 +326,8 @@ MY 'ART PROJECTS' PAGE */
     display: none; 
 }
 
-
-/* The purpose of this CSS class is to ____ */
+/* The purpose of this CSS class is to set up a lightbox display for viewing images 
+   in full-screen mode, initially hidden and covering the entire viewport with a dark background. */
 .lightbox {
     display: none; 
     position: fixed; 
@@ -208,12 +341,13 @@ MY 'ART PROJECTS' PAGE */
     align-items: center;
 }
 
-/* The purpose of this CSS class is to ____ */
+/* The purpose of this CSS class is to center-align the content within the lightbox. */
 .lightbox-content {
     text-align: center;
 }
 
-/* The purpose of this CSS class is to ____ */
+/* The purpose of this CSS class is to style the caption for the image displayed in the 
+   lightbox, ensuring it stands out with padding and a background. */
 .lightbox-caption {
     margin-top: 10px;
     background-color: rgba(0, 0, 0, 0.7);
@@ -223,13 +357,15 @@ MY 'ART PROJECTS' PAGE */
     text-align: center;
 }
 
-/* The purpose of this CSS class is to ____ */
+/* The purpose of this CSS class is to limit the size of images displayed in the lightbox,
+   keeping them within a specified maximum width and height to maintain a good appearance. */
 .lightbox img {
     max-width: 70%;
     max-height: 60%;
 }
 
-/* The purpose of this CSS class is to ____ */
+/* The purpose of this CSS class is to position the close button in the lightbox, 
+   providing a large, easily clickable area to exit the lightbox view. */
 .close {
     position: absolute;
     top: 10px;
@@ -242,6 +378,20 @@ MY 'ART PROJECTS' PAGE */
 
 /* THE PURPOSE OF THIS CODE BLOCK IS TO STYLE THE CONTENT SPECIFICALLY ON 
 MY 'QUESTBOOK' PAGE */
+
+
+.questbook-image {
+    display: block;               /* Make it a block element */
+    margin: 20px auto;           /* Center the image with auto horizontal margins and provide spacing around */
+    max-width: 25%;             /* Make it responsive */
+    height: auto;                /* Maintain aspect ratio */
+    border: 2px solid black;      /* Set the border with desired thickness and color */
+    border-radius: 15px;         /* Round the corners of the image */
+    padding: 5px;                /* Optional: Adds space between the border and the image */
+    background-color: #fff;      /* Optional: Sets a background color that contrasts with the border */
+}
+
+
 
 
 /* The purpose of this CSS class is to ____ */
@@ -305,6 +455,17 @@ MY 'QUESTBOOK' PAGE */
 MY 'PLAYER STATS' PAGE */
 
 
+.player-image {
+    display: block;               /* Make it a block element */
+    margin: 20px auto;           /* Center the image with auto horizontal margins and provide spacing around */
+    max-width: 50%;             /* Make it responsive */
+    height: auto;                /* Maintain aspect ratio */
+    border: 2px solid black;      /* Set the border with desired thickness and color */
+    border-radius: 15px;         /* Round the corners of the image */
+    padding: 5px;                /* Optional: Adds space between the border and the image */
+    background-color: #fff;      /* Optional: Sets a background color that contrasts with the border */
+}
+
 
 /* The purpose of this CSS class is to ____ */
 .download-button {
@@ -320,6 +481,10 @@ MY 'PLAYER STATS' PAGE */
 /* The purpose of this CSS class is to ____ */
 .download-button:hover {
     background: red;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
 }
 
 
@@ -327,41 +492,173 @@ MY 'PLAYER STATS' PAGE */
 /* THE PURPOSE OF THIS CODE BLOCK IS TO STYLE THE CONTENT SPECIFICALLY ON 
 MY 'CONTACT' PAGE */
 
-.container {
+/* The purpose of this CSS class is to ____ */
+.contactpage-container {
     max-width: 800px;
     margin: auto;
 }
 
-
+/* The purpose of this CSS class is to ____ */
 .section {
     margin: 20px 0;
 }
 
-
+/* The purpose of this CSS class is to ____ */
 input, textarea {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
 }
 
+/* The purpose of this CSS class is to ____ */
 button {
     background-color: #007BFF;
     color: white;
     border: none;
     padding: 10px 15px;
     cursor: pointer;
+    border-radius: 5px;
 }
 
+/* The purpose of this CSS class is to ____ */
 button:hover {
     background-color: #0056b3;
 }
 
+/* The purpose of this CSS class is to ____ */
 a {
     margin-right: 10px;
     text-decoration: none;
     color: #007BFF;
 }
 
+/* The purpose of this CSS class is to ____ */
 a:hover {
     text-decoration: underline;
+}
+
+/* The purpose of this CSS class is to ____ */
+.resume {
+    text-align: center;
+}
+
+
+
+
+
+/* THE PURPOSE OF THIS CODE BLOCK IS TO STYLE THE DESIGN SPECIFICALLY ON 
+MY 'SPLASH' PAGE */
+
+/* The purpose of this CSS class is to ____ */
+
+.splash-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Take the full viewport height */
+    position: relative; /* Required for absolute positioning of child elements */
+}
+
+.splash-container h1 {
+    color: white; /* Set text color to white */
+    font-size: 2.5rem; /* Adjust as needed */
+    margin: 20px 0;
+    padding: 0 20px; /* Add some padding on the sides */
+}
+
+.music-container {
+    position: fixed; /* Fix it to the bottom left of the viewport */
+    bottom: 60px; /* Gives space above the footer */
+    left: 20px; /* Positioning from the left */
+    display: flex; /* Use flex for alignment */
+    align-items: center; /* Vertical alignment */
+}
+
+.play-button {
+    width: 50px; /* Width of the round button */
+    height: 50px; /* Height of the round button */
+    border-radius: 50%; /* Make the button round */
+    border: none; /* Remove default border */
+    background-color: black; /* Background color */
+    color: white; /* Text color */
+    font-size: 20px; /* Adjust font size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    transition: background 0.3s; /* Smooth background transition */
+}
+
+.play-button:hover {
+    background-color: darkblue; /* Darken button on hover */
+}
+
+.music-message {
+    color: rgba(255, 255, 255, 0.6); /* Set message text color */
+    margin-left: 50px; /* Space between the button and the message */
+    font-size: 1rem; /* Adjust font size as needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background for better contrast */
+    padding: 5px; /* Some padding for the message */
+    border-radius: 5px; /* Rounded corners for the message */
+}
+
+.enter-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: blue; /* Set the background color to blue */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background 0.3s, transform 0.3s; /* Smooth background and transform transitions */
+    position: relative; /* Required for the shine effect */
+}
+
+/* Wiggle effect */
+@keyframes wiggle {
+    0% { transform: rotate(1deg); }
+    25% { transform: rotate(-1deg); }
+    50% { transform: rotate(1deg); }
+    75% { transform: rotate(-1deg); }
+    100% { transform: rotate(1deg); } 
+}
+
+/* Glow effect */
+.enter-button:hover {
+    animation: wiggle 0.5s; /* Apply wiggle animation */
+    background-color: darkblue; /* Darken button color on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.8), 0 0 20px rgba(0, 0, 255, 0.6); /* Glow effect in blue */
+}
+
+.enter-button:hover {
+    background: blue; /* Darken button color on hover */
+}
+
+.play-button {
+    width: 50px; /* Width of the round button */
+    height: 50px; /* Height of the round button */
+    border-radius: 50%; /* Make the button round */
+    border: none; /* Remove default border */
+    background-color: black; /* Change background color to blue */
+    color: white; /* Text color */
+    font-size: 20px; /* Adjust font size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    position: absolute; /* Position it absolutely within the parent container */
+    bottom: 20px; /* Distance from the bottom */
+    left: 20px; /* Distance from the left */
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    transition: background 0.3s; /* Smooth background transition */
+}
+
+.play-button:hover {
+    background-color: darkblue; /* Darken on hover */
+}
+
+/* The button container and enter button styles remain unchanged */
+.button-container {
+    display: flex;
+    align-items: center; /* Center buttons vertically */
+    margin-top: 20px; /* Space above the button container */
 }

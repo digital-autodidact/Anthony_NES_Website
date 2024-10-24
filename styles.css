@@ -108,6 +108,22 @@ footer div {
 
 
 
+.toggle-icon {
+    margin-right: 8px; /* Space between icon and text */
+    transition: transform 0.3s ease;
+}
+
+/* Rotate chevron when the header is active */
+.toggle-header.active .toggle-icon {
+    transform: rotate(180deg);
+}
+
+
+
+
+
+
+
 
 /* THE PURPOSE OF THIS CODE BLOCK IS TO STYLE THE CONTENT SPECIFICALLY ON 
 THE NAVIGATION MENU DISPLAYED ON ALL WEBPAGES ON MY SITE*/

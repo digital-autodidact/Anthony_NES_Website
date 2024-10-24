@@ -1,4 +1,5 @@
-// musicbutton.js
+/* THE PURPOSE OF THIS SCRIPT FILE IS TO ALTER BEHAVIOR ACROSS ALL THE PAGES ON MY WEBSITE
+IT WILL ONLY AFFECT THE MUSIC BUTTON BEHAVIOR */
 
 // Praise messages that can be displayed
 const praiseMessages = [
