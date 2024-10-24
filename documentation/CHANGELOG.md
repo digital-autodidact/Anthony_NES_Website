@@ -329,3 +329,24 @@ Enhanced the `Code Projects` page with new toggle features and wrote new content
 - Merged `Favorite Technologies` section into `About Me As A Developer` section for better organization.
 
 
+## [1.5.3] - 2024-10-24
+
+Enhanced the `Art Projects` page with new toggle features and wrote new content in various sections.
+Added a project card to `Code Projects` page
+
+### Added
+- Applied toggle feature to the `art-projects` page for better content management.
+- Created a new section: `Inspiration Sources`.
+
+- Related to `code-projects` page:
+  - Added a project card to describe capsule wardrobe app
+  - Added an image file named `code_wardrobe_app.png` to `images` directory
+
+### Changed
+- Streamlined the content within existing sections for improved readability.
+- Renamed sections for clarity:
+  - `What I'm Learning About Now` to `Current Activities`
+  - `What's Next?` to `What I Want To Learn & Create Next`
+  - `Like What You Saw Here? Let's Talk!` to `I'm Available For Hire`
+- Merged `Favorite Technologies` section into `About Me As An Artist` section for better organization.
+
