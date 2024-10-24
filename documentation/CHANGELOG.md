@@ -14,6 +14,37 @@ All notable changes to this project will be documented in this file.
 - [Resolved a problem]
 ```
 
+
+```
+SEMANTIC VERSIONING FRAMEWORK
+
+MAJOR version (X.Y.Z):
+Increment the MAJOR version when you make changes that are not backward-compatible.
+Examples:
+  - Redesigning the entire UI that requires users to adapt significantly.
+  - Removing or renaming public APIs.
+  - Changing the underlying database structure that affects the current way content is served.
+
+MINOR Changes (0.Y.0)
+Increment the MINOR version when you add new features or substantial improvements that do not break existing functionality.
+Examples:
+  - Adding a new feature like a blog or forum section.
+  - Implementing new styling or layout options that enhance user experience without disrupting current content.
+  - Adding additional languages or localization options.
+
+Increment the PATCH version when you implement backward-compatible bug fixes.
+Examples:
+  - Fixing a layout issue on specific devices or browsers.
+  - Correcting a typo on your site.
+  - Addressing minor bugs that don’t change how features work.
+
+
+```
+
+
+
+
+
 ## [1.0.0] - 2024-10-12
 
 
@@ -221,5 +252,22 @@ Edited the website's pages in preparation for deployment. It will be ready soon.
     - `main-quests.html`
     - `master-quest.html`
     - `side-quests.html`
+
+
+## [1.4.0] - 2024-10-23
+
+Added unique music files for each page on the website.
+
+- Added 7 new musicbox files to the `music` directory.
+
+- Implemented specific music tracks for the following pages:
+  - Home page: `Bloody_Tears_Castlevania.mp3`
+  - About Me page: `PokemonThemeAnime.mp3`
+  - CodeProjects page: `DireDireDocks_Mario.mp3`
+  - ArtProjects page: `MoonlightDensetsu_SailorMoon.mp3`
+  - Questbook page: `TrainerBattle_PokemonGen1.mp3`
+  - PlayerStats page: `FinalBattleVsRival_PokemonGen1.mp3`
+  - Contact page: `NationalPark_Pokemon.mp3`
+
 
 
