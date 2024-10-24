@@ -3,7 +3,10 @@
 All notable changes to this project will be documented in this file.
 
 ```
-## [Unreleased Changes]
+## [X.Y.Z] - YYYY-MM-DD
+
+[Short Title Description]
+
 ### Added
 - [Implemented new feature]
 
@@ -274,13 +277,32 @@ Added unique music files for each page on the website.
 
 ## [1.5.0] - 2024-10-23
 
-### Added
-
 Implemented toggle feature for improved readability. Feature will be used across the website.
+
+### Added
 
 - Developed a toggle feature for enhanced content accessibility across different sections of the website.
 - Integrated the toggle feature on the homepage to improve content readability.
 
+
+## [1.5.1] - 2024-10-24
+
+Enhanced the `About Me` page with new toggle feature and wrote new content for the sections
+
+### Added
+- Created new sections: `What Makes Me Special?` and `What's My Dream?`.
+- Added a profile picture to the `About Me` page to enhance visual appeal.
+- Included Font Awesome stylesheet in the head section for icon support:
+  `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">`
+
+### Changed
+- Applied toggle feature to the `About Me` page for better content accessibility.
+- Streamlined the content within the page sections.
+- Incorporated quotes into several sections:
+  - `What's My Life Philosophy?`
+  - `What Are My Interests?`
+  - `What's My Dream?`
+  - `If You're Going My Way, Walk With Me`
 
 
 

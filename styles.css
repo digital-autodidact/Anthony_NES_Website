@@ -119,7 +119,13 @@ footer div {
 }
 
 
-
+quote {
+    display: block;
+    margin: 20px auto;
+    font-style: italic;
+    color: #666;
+    text-align: center;
+}
 
 
 

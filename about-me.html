@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me Page</title>
     <link rel="stylesheet" href="https://unpkg.com/nes.css/css/nes.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
     <link rel="icon" type="image/x-icon" href="favicons/man_icon.png">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -31,102 +32,264 @@
     </header>
 
     <main>
-        <h1>About Me</h1>
-        
-        <p>Hello! I'm Anthony, a playful creator! I like to learn things for fun. Learn about me here!</p>
+
+        <h1> About Me</h1>
+        <img src="images/anthony_profilepic.jpeg" alt="Anthony Avelar" class="hero-image" style="display: block; margin: 0 auto; width: 25%; height: auto;">
+        <h1>Hi, I'm Anthony Avelar!</h1>
+
+        <p>I'm a <strong>digital autodidact</strong> and a <strong>playful creator</strong>! I like to learn and create things for fun. You can learn about me here by clicking on the relevant sections!</p>
                 
-                <section>
-                    <h2>My Story</h2>
-                    <p>I'm a Marine Corps veteran with an IT background. I developed my skills by working in various tech roles ranging from helpdesk technician to network administrator. During my enlistment, I led and trained small teams of junior technicians. I developed a unique blend of technological, investigative and leadership skills that I bring over to my civilian career.</p>
+        <section>
+            <h2 class="toggle-header">
+                <i class="fas fa-chevron-down toggle-icon"></i>
+                Who Am I?
+            </h2>
+            <div class="toggle-content" style="display: none;">
+                <h3>Background</h3>
+                <p>I'm a Marine Corps veteran with an IT background. I developed my skills by working in various tech roles ranging from helpdesk technician to network administrator. During my enlistment, I led and trained small teams of junior technicians. I developed a unique blend of technological, investigative and leadership skills that I bring over to my civilian career.</p>
+            </div>
+        </section>
 
-                    <h3>I AM A DIGITAL AUTODIDACT</h3>
 
-                    <p>What sets me apart is the eclectic mix of skills and experiences I bring to every organization I choose to work for. I introduce myself as a "digital autodidact" because I'm driven to learn new skills in programming, writing and traditional art.</p>
-                    <p>This unique talent stack means I'm positioned to bring a holistic approach to solving problems. Whether programming the frontend of a mobile app or painting a person's portrait, I'm always looking to challenge myself to grow as a human being.</p>
-                </section>
+        <section>
+            <h2 class="toggle-header">
+                <i class="fas fa-chevron-down toggle-icon"></i>
+                What Makes Me Special?
+            </h2>
+            <div class="toggle-content" style="display: none;">
+                <h3>I'm a Modern-Day Renaissance Man!</h3>
+                <p>What sets me apart is my insatiable curiosity and my unique talent stack! I bring an <strong>eclectic mix of skills and experiences</strong> to every organization I choose to work for.</p>
+                <p>I introduce myself as a "digital autodidact" because I'm driven to learn new skills in programming, writing and traditional art.</p>
+                <p>This unique talent stack means I'm positioned to bring a holistic approach to solving problems. Whether programming the frontend of a mobile app or painting a person's portrait, I'm always looking to challenge myself to grow as a human being.</p>
+            
+                <h3>I'm a Man With A Second Brain!</h3>
+                <p><em>"What's a second brain?"</em> Glad you asked!</p>
+                <p>It's a concept I learned from the productivity expert Tiago Forte. It's a system of tools and methods that help me organize my life and work. I use it to store my ideas, notes, and projects in a way that's easy to access and share.</p>
+                <p>My second brain system is a centralized repository of my best ideas, insights and thoughts, which exists outside of my head (ie the "first" brain)</p>
+                <p>Think of it like a personal wiki where I create FAQs on different subjects!</p>
+                <p>The system is designed to augment my natural memory, and more importantly, free up my first brain (the one between my ears) to focus entirely on thinking and learning effectively.</p>
 
-                <section>
-                    <h2>My Life Philosophy</h2>
-                    <p>I'm a firm believer in the power of self-improvement and lifelong learning. I'm always looking for ways to challenge myself and grow as a human being.</p>
-                    <p><strong>I treat life like a RPG game.</strong></p>
 
-                    <h3>Ideals</h3>
+                <h3>Roles I Like to Play:</h3>
+
+                <h3 class="toggle-header">
+                    <i class="fas fa-chevron-down toggle-icon"></i>
+                    Autodidact
+                </h3>
+                <div class="toggle-content" style="display: none;">
+                    <p>I possess an insatiable curiosity and like to learn skills for fun!</p>
+                </div>
+    
+    
+                <h3 class="toggle-header">
+                    <i class="fas fa-chevron-down toggle-icon"></i>
+                    Artist
+                </h3>
+                <div class="toggle-content" style="display: none;">
+                    <p>I like to draw and paint!</p>
+                </div>
+    
+                <h3 class="toggle-header">
+                    <i class="fas fa-chevron-down toggle-icon"></i>
+                    Programmer
+                </h3>
+                <div class="toggle-content" style="display: none;">
+                    <p>I like to code websites!</p>
+                </div>
+    
+                <h3 class="toggle-header">
+                    <i class="fas fa-chevron-down toggle-icon"></i>
+                    Writer
+                </h3>
+                <div class="toggle-content" style="display: none;">
+                    <p>I like to write short stories about two characters I invented, Mark and Misty!</p>
+                </div>
+    
+                <h3 class="toggle-header">
+                    <i class="fas fa-chevron-down toggle-icon"></i>
+                    Teacher
+                </h3>
+                <div class="toggle-content" style="display: none;">
+                    <p>I like to make small-group workshops to teach others in a show-and-tell style</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section>
+            <h2 class="toggle-header">
+                <i class="fas fa-chevron-down toggle-icon"></i>
+                What's My Life Philosophy?
+            </h2>
+            <div class="toggle-content" style="display: none;">
+                <quote>I treat life like a RPG game.</quote>
+                <p>I'm a firm believer in the power of lifelong learning. I'm always looking for ways to challenge myself and grow as a human being, even if it puts me in uncomfortable situations!</p>
+
+
+                <h3 class="toggle-header">
+                    <i class="fas fa-chevron-down toggle-icon"></i>
+                    Ideals
+                </h3>
+                <div class="toggle-content" style="display: none;">
                     <p>I subscribe to these ideals:</p>
                     <div class="lists">
                         <ul class="nes-list is-disc">
                             <li>The Strenuous Life</li>
-                            <li>Renaissance Man Ideal</li>
-                            <li>Autodidactism</li>
+                            <li>Autodidactism & the Renaissance Man Ideal</li>
                             <li>Stoicism</li> 
-                            <li>The Slight Edge Philosophy</li>
-                            <li>The Quantified Self</li>
+                            <li>Kaizen & The Slight Edge Philosophy</li>
                             <li>The Maker Movement</li>
-                            <li>Storytelling & Imagination</li>
                         </ul>
                     </div>
+                </div>
 
-                    <h3>Core Values</h3>
-                    <p>These are my values:</p>
 
+                <h3 class="toggle-header">
+                    <i class="fas fa-chevron-down toggle-icon"></i>
+                    Core Values
+                </h3>
+                <div class="toggle-content" style="display: none;">
+                    <p>These are the qualities I care most about:</p>
                     <div class="lists">
                         <ul class="nes-list is-disc">
                             <li>Curiosity</li>
-                            <li>Loyalty</li>
                             <li>Playfulness</li>
-                            <li>Strength</li>
+                            <li>Tenacity</li>
                             <li>Courage</li>
-                            <li>Competence</li>
+                            <li>Mastery</li>
                         </ul>
                     </div>
+                </div>
+            </div>
+        </section>
 
 
-                    <h3> My Roles </h3>
-                    <div class="lists">
-                        <ul class="nes-list is-disc">
-                            <li>Autodidact</li>
-                            <p><em>I possess an insatiable curiosity and like to learn skills for fun!</em></p>
-                            <li>Artist</li>
-                            <p><em>I like to draw and paint!</em></p>
-                            <li>Programmer</li>
-                            <p><em>I like to code websites!</em></p>
-                            <li>Writer</li>
-                            <p><em>I like to write short stories about two characters I invented, Mark and Misty!</em></p>
-                        </ul>
-                    </div>
 
-                </section>
-                
-                <section>
-                    <h2>Interests</h2>
-                    <p>Things that fascinate me, but that don't typically show up in my resume:</p>
+        <section>
+            <h2 class="toggle-header">
+                <i class="fas fa-chevron-down toggle-icon"></i>
+                What Are My Interests?
+            </h2>
+            <div class="toggle-content" style="display: none;">
+                <quote>I don't have hobbies, I have passions.</quote>
+                <p>Things that fascinate me, but that will never show up in my resume:</p>
 
-                    <div class="lists">
-                        <ul class="nes-list is-disc">
-                            <li>Gamification</li>
-                            <li>Retro Video Games</li>
-                            <li>Minecraft</li>
-                            <li>The Italian Renaissance</li>
-                            <li>Social Psychology</li>
-                            <li>Drawing the Human Figure</li>
-                            <li>Street Photography</li>
-                            <li>Kintsugi (the art of repairing broken pottery)</li>
-                            <li>Music Box Melodies</li>
-                            <li>The Dictionary of Obscure Sorrows</li>
-                        </ul>
-                    </div>
-                    
-                </section>
-                
 
-                <section>
-                    <h2>If You're Going My Way, Let's Walk Together</h2>
-                    <p>Ultimately, my dream is to be known as <strong>a Renaissance Man of the 21st century!</strong></p>
-                    <p>I intend to spend the rest of my life taking risks, learning from my mistakes, and building projects related to the quirky things I discover along the way.</p>
-                    <p>If you share a similar dream as mine or just share a mutual interest in art or tech, let's talk!</p>
 
-                    <a class="nes-btn" href="contact-page.html">Send me a message!</a>
+                <h3 class="toggle-header">
+                    <i class="fas fa-chevron-down toggle-icon"></i>
+                    Gamification
+                </h3>
+                <div class="toggle-content" style="display: none;">
+                    <p>Gamification is the application of game design elements and principles in non-game contexts to enhance engagement, motivation, and participation.</p>
 
-                </section>
+                </div>
+
+                <h3 class="toggle-header">
+                    <i class="fas fa-chevron-down toggle-icon"></i>
+                    Retro Video Games & Pixel Art
+                </h3>
+                <div class="toggle-content" style="display: none;">
+                    <p>I love the simple gameplay mechanics and the aesthetics associated with video games that were released between 1980s-2000s.</p>
+
+                </div>
+
+
+                <h3 class="toggle-header">
+                    <i class="fas fa-chevron-down toggle-icon"></i>
+                    Italian Renaissance Art
+                </h3>
+                <div class="toggle-content" style="display: none;">
+                    <p>The Italian Renaissance was a cultural and intellectual movement that emerged in Italy during the 14th to 17th centuries, marking a revival of interest in classical art, literature, and learning from ancient Greece and Rome.</p>
+
+                </div>
+
+                <h3 class="toggle-header">
+                    <i class="fas fa-chevron-down toggle-icon"></i>
+                    Urban Sketching
+                </h3>
+                <div class="toggle-content" style="display: none;">
+                    <p>Urban sketching is the practice of drawing and capturing the surroundings of urban environments in a spontaneous and observational manner, often done on-site in public spaces.</p>
+
+                </div>
+
+                <h3 class="toggle-header">
+                    <i class="fas fa-chevron-down toggle-icon"></i>
+                    Street Photography
+                </h3>
+                <div class="toggle-content" style="display: none;">
+                    <p>Street photography is a genre of photography that focuses on capturing candid moments and scenes in public spaces, often highlighting the everyday life, culture, and emotions of people in urban environments.</p>
+
+                </div>
+
+                <h3 class="toggle-header">
+                    <i class="fas fa-chevron-down toggle-icon"></i>
+                    Kintsugi Pottery
+                </h3>
+                <div class="toggle-content" style="display: none;">
+                    <p>Kintsugi is a Japanese art form that involves repairing broken pottery with lacquer mixed with powdered gold, silver, or platinum, highlighting and celebrating the object's history rather than hiding its flaws.</p>
+
+                </div>
+
+                <h3 class="toggle-header">
+                    <i class="fas fa-chevron-down toggle-icon"></i>
+                    Music Box Melodies
+                </h3>
+                <div class="toggle-content" style="display: none;">
+                    <p>I love the soft, delicate tunes produced by music boxes. It's something that soothes me.</p>
+
+                </div>
+
+                <h3 class="toggle-header">
+                    <i class="fas fa-chevron-down toggle-icon"></i>
+                    The Dictionary of Obscure Sorrows
+                </h3>
+                <div class="toggle-content" style="display: none;">
+                    <p><a href="https://www.thedictionaryofobscuresorrows.com/" target="_blank">The Dictionary of Obscure Sorrows</a>is a creative project by John Koenig that aims to invent new words for emotions and experiences that are often difficult to articulate.</p>
+
+                </div>
+
+
+
+
+
+
+
+
+            </div>
+        </section>
+
+
+        <section>
+            <h2 class="toggle-header">
+                <i class="fas fa-chevron-down toggle-icon"></i>
+                What's My Dream?
+            </h2>
+            <div class="toggle-content" style="display: none;">
+                <quote>"I shall not be satisfied that I have done my best until my name is known from one end of the world to the other."</quote>
+
+                <p>Ultimately, my dream is to be known as <strong>a Renaissance Man of the 21st century!</strong></p>
+                <p>I intend to spend the rest of my life taking risks, learning from my mistakes, and building projects related to the things I become fascinated along the way.</p>
+
+            </div>
+        </section>
+
+
+
+
+        <section>
+            <h2>If You're Going My Way, Walk With Me</h2>
+
+            <quote>"If you want to go fast, go alone. If you want to go far, go together."</quote>
+
+            <p>If you share a similar dream as mine or just share a mutual interest in art or tech, let's talk! My journey has often been a lonely road, so it's always a pleasure to make a new friend and walk together for a while.</p>
+
+            <a class="nes-btn" href="contact-page.html" style=>Send me a message!</a>
+
+        </section>                
+
 
         <div class="music-container">
             <button id="play-button" class="play-button">🎵</button>
@@ -152,6 +315,7 @@
     </footer>
 
     <script src="scripts/musicbutton.js"></script> <!-- Link to the musicbutton.js file -->
+    <script src="scripts/toggle.js"></script> <!-- Link to the toggle.js file -->
 
 </body>
 </html>

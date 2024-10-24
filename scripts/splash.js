@@ -2,9 +2,9 @@
 
 // Welcome messages for typing effect
 const messageLines = [
-    "Hello curious visitor.",
+    "Hello curious visitor",
     "Welcome to a world of my creation,",
-    "won't you come inside?"
+    "won't you come inside for a bit?"
 ];
 let index = 0;
 let lineIndex = 0;
