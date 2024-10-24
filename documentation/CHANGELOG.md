@@ -49,14 +49,15 @@ Examples:
 
 
 ## [1.0.0] - 2024-10-12
-
+MAJOR RELASE
 
 ### Added
-- Initial release of the anthonyavelar.com website!
+- Initial release of the anthonyavelar.com website! Currently deployed as a single page website.
 - Implemented NES CSS Framework in the overall design for the website!
 
 
 ## [1.1.0] - 2024-10-17
+MINOR RELEASE
 
 ### Added
 - Implemented a navigation menu within the header of the website!
@@ -84,6 +85,7 @@ Examples:
 
 
 ## [1.2.0] - 2024-10-18
+MINOR RELEASE: Introduced new images and content across multiple pages
 
 ### Added
 - Added in several art-related image files to `images` directory
@@ -128,6 +130,7 @@ Examples:
 
 
 ## [1.3.0] - 2024-10-19
+MINOR RELEASE
 
 ### Added
 - The `Player Stats` page is now ready to be deployed to cPanel!
@@ -190,6 +193,7 @@ Examples:
 
 
 ## [1.3.1] - 2024-10-20
+PATCH RELEASE:
 
 ### Added
 - Added images to `Code Projects`, `Art Projects`, and `Player Stats` pages.
@@ -211,8 +215,7 @@ Examples:
 
 
 ## [1.3.2] - 2024-10-22
-
-Edited the website's pages in preparation for deployment. It will be ready soon.
+PATCH RELEASE: Edited the website's pages in preparation for deployment. The enhanced version will be deployed tomorrow!
 
 ### Changed
 
@@ -256,10 +259,11 @@ Edited the website's pages in preparation for deployment. It will be ready soon.
     - `master-quest.html`
     - `side-quests.html`
 
+## WEBSITE VERSION [1.3.2] WAS DEPLOYED TO GODADDY CPANEL VIA FTP ON 2024-10-23
+The new enhanced website is live!
 
 ## [1.4.0] - 2024-10-23
-
-Added unique music files for each page on the website.
+MINOR RELEASE: Added unique music files for each page on the website.
 
 ### Added
 
@@ -276,8 +280,7 @@ Added unique music files for each page on the website.
 
 
 ## [1.5.0] - 2024-10-23
-
-Implemented toggle feature for improved readability. Feature will be used across the website.
+MINOR RELEASE: Implemented toggle feature for improved readability. Feature will be used across the website.
 
 ### Added
 - Developed a toggle feature for enhanced content accessibility across different sections of the website.
@@ -285,8 +288,7 @@ Implemented toggle feature for improved readability. Feature will be used across
 
 
 ## [1.5.1] - 2024-10-24
-
-Enhanced the `About Me` page with new toggle feature and wrote new content for the sections
+PATCH RELEASE: Enhanced the `About Me` page with new toggle feature and wrote new content for the sections
 
 ### Added
 - Created new sections: `What Makes Me Special?` and `What's My Dream?`.
@@ -305,8 +307,7 @@ Enhanced the `About Me` page with new toggle feature and wrote new content for t
 
 
 ## [1.5.2] - 2024-10-24
-
-Enhanced the `Code Projects` page with new toggle features and wrote new content in various sections.
+PATCH RELEASE: Enhanced the `Code Projects` page with new toggle features and wrote new content in various sections.
 
 ### Added
 - Applied toggle feature to the `Code Projects` page for better content management.
@@ -330,8 +331,7 @@ Enhanced the `Code Projects` page with new toggle features and wrote new content
 
 
 ## [1.5.3] - 2024-10-24
-
-Enhanced the `Art Projects` page with new toggle features and wrote new content in various sections.
+PATCH RELEASE: Enhanced the `Art Projects` page with new toggle features and wrote new content in various sections.
 Added a project card to `Code Projects` page
 
 ### Added
@@ -349,4 +349,25 @@ Added a project card to `Code Projects` page
   - `What's Next?` to `What I Want To Learn & Create Next`
   - `Like What You Saw Here? Let's Talk!` to `I'm Available For Hire`
 - Merged `Favorite Technologies` section into `About Me As An Artist` section for better organization.
+
+
+
+## [1.5.4] - 2024-10-24
+PATCH RELEASE: Enhanced Questbook page and add new quest HTML files.
+Made minor content changes to 
+
+
+## Added
+- Applied toggle feature to the `questbook` page for improved content management.
+- Created 3 new HTML files in the `quests` directory:
+  - main-quests.html
+  - side-quests.html
+  - ultimate-quest.html
+- Added basic content within the 3 newly created HTML files
+
+## Changed
+- Streamlined the content within existing sections of the `questbook` page for better readability.
+- Made minor adjustments to the `My Vision` section within the `Art Projects` and `Code Projects` pages.
+- Enhanced the readability of the CHANGELOG.md file by introducing a new rule that requires me to explicitly identify the type of release for every new version of the website
+  - Edited the previous entries to be consistent with this new convention
 

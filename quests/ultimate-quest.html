@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Side Quests</title>
+    <title>Ultimate Quest</title>
     <link rel="stylesheet" href="https://unpkg.com/nes.css/css/nes.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="../styles.css"> <!-- Optional custom styles -->
@@ -24,19 +24,13 @@
             max-width: 800px;
             padding: 20px;
         }
-        .quest-list {
-            list-style-type: disc; /* Bulleted list */
-            padding-left: 20px; /* Indent the list */
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px; /* Optional: makes the image corners round */
         }
-        .quest-list li {
-            margin: 10px 0;
-        }
-        .quest-list a {
-            color: #007BFF;
-            text-decoration: none;
-        }
-        .quest-list a:hover {
-            text-decoration: underline;
+        .card h1 {
+            margin-top: 0;
         }
     </style>
 
@@ -52,7 +46,6 @@
                 <li><a href="code-projects.html">Code Projects</a></li>
                 <li><a href="art-projects.html">Art Projects</a></li>
                 <li><a href="questbook.html">Quests</a></li>
-                <li><a href="side-quests.html">Side Quests</a></li>
                 <li><a href="player-stats.html">Player Stats</a></li>
                 <li><a href="contact-page.html">Contact</a></li>
             </ul>
@@ -60,20 +53,40 @@
     </header>
 
     <main>
-        <div class="card">
-            <h2>Side Quests</h2>
-            <p>Here are some of the side quests I plan to embark on. Click each quest to read more:</p>
+        <h1>Ultimate Quest</h1>
+        
+        <section>
+            <h2>placeholder</h2>
+        </section>
 
-            <ul class="quest-list">
-                <li><a href="future-post-1.html">Side Quest #1: [Title of Side Quest]</a></li>
-                <li><a href="future-post-2.html">Side Quest #2: [Title of Side Quest]</a></li>
-                <li><a href="future-post-3.html">Side Quest #3: [Title of Side Quest]</a></li>
-                <li><a href="future-post-4.html">Side Quest #4: [Title of Side Quest]</a></li>
-                <li><a href="future-post-5.html">Side Quest #5: [Title of Side Quest]</a></li>
-                <li><a href="future-post-6.html">Side Quest #6: [Title of Side Quest]</a></li>
-                <!-- Add more side quests as necessary -->
-            </ul>
+        <section>
+            <h2 class="toggle-header">
+                <i class="fas fa-chevron-down toggle-icon"></i>
+                Title
+            </h2>
+            <div class="toggle-content" style="display: none;">
+                <p>Content</p>
+            </div>
+        </section>
+
+        <!-- Card for the image -->
+        <div class="card">
+            <img src="../images/adventure_example.png" alt="Your Quest Image"> <!-- Replace with your image URL -->
         </div>
+
+        <!-- Card for the text -->
+        <div class="card">
+            <h1>My Master Quest</h1>
+            <p>
+                This is where you can describe your master quest. Explain the goals, challenges, and experiences you encountered along the way.
+                Be sure to share details that make your journey special and motivate others who might wish to embark on a similar adventure.
+            </p>
+        </div>
+
+        <div class="music-container">
+            <button id="play-button" class="play-button">🎵</button>
+        </div>
+
     </main>
 
     <footer>
