@@ -22,7 +22,7 @@ All notable changes to this project will be documented in this file.
 SEMANTIC VERSIONING FRAMEWORK
 
 MAJOR version (X.Y.Z):
-Increment the MAJOR version when you make changes that are not backward-compatible.
+Increment the MAJOR version when you make code changes that are not backward-compatible.
 Examples:
   - Redesigning the entire UI that requires users to adapt significantly.
   - Removing or renaming public APIs.
@@ -259,9 +259,9 @@ Edited the website's pages in preparation for deployment. It will be ready soon.
 
 ## [1.4.0] - 2024-10-23
 
-### Added
-
 Added unique music files for each page on the website.
+
+### Added
 
 - Added 7 new musicbox files to the `music` directory.
 
@@ -280,7 +280,6 @@ Added unique music files for each page on the website.
 Implemented toggle feature for improved readability. Feature will be used across the website.
 
 ### Added
-
 - Developed a toggle feature for enhanced content accessibility across different sections of the website.
 - Integrated the toggle feature on the homepage to improve content readability.
 
@@ -304,5 +303,29 @@ Enhanced the `About Me` page with new toggle feature and wrote new content for t
   - `What's My Dream?`
   - `If You're Going My Way, Walk With Me`
 
+
+## [1.5.2] - 2024-10-24
+
+Enhanced the `Code Projects` page with new toggle features and wrote new content in various sections.
+
+### Added
+- Applied toggle feature to the `Code Projects` page for better content management.
+- Created a new section: `Inspiration Sources`.
+- Added Font Awesome stylesheet link in the head section for icon support:
+  `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">`
+- Included script for toggle functionality at the bottom of the page:
+  `<script src="scripts/toggle.js"></script>`
+  Furthermore, I added this code snippet to the following pages:
+  - `art-projects` page
+  - `player-stats` page
+  - `questbook` page
+
+### Changed
+- Streamlined the content within existing sections for improved readability.
+- Renamed sections for clarity:
+  - `What I'm Learning About Now` to `Current Activities`
+  - `What's Next?` to `What I Want To Learn & Build Next`
+  - `Like What You Saw Here? Let's Talk!` to `I'm Available For Hire`
+- Merged `Favorite Technologies` section into `About Me As A Developer` section for better organization.
 
 
