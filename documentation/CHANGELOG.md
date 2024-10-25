@@ -353,9 +353,8 @@ Added a project card to `Code Projects` page
 
 
 ## [1.5.4] - 2024-10-24
-PATCH RELEASE: Enhanced Questbook page and add new quest HTML files.
-Made minor content changes to 
-
+PATCH RELEASE: Enhanced `Questbook` page and add new quest HTML files.
+Made minor content changes within the `Art Projects` and `Code Projects` pages
 
 ## Added
 - Applied toggle feature to the `questbook` page for improved content management.
@@ -370,4 +369,19 @@ Made minor content changes to
 - Made minor adjustments to the `My Vision` section within the `Art Projects` and `Code Projects` pages.
 - Enhanced the readability of the CHANGELOG.md file by introducing a new rule that requires me to explicitly identify the type of release for every new version of the website
   - Edited the previous entries to be consistent with this new convention
+
+
+
+## [1.5.5] - 2024-10-24
+PATCH RELEASE: Enhanced `Player Stats` page with updates
+
+## Added
+- Applied toggle feature to the `Player Stats` page for better content management.
+
+## Changed
+- Eliminated the `Hackathons & CTF Competitions` section to simplify the content.
+- Renamed the `Player Skills` section to `Skills` for conciseness.
+- Eliminated skills I can't believably justify from `Skills` section
+
+
 
