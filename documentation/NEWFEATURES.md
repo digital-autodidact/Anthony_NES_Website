@@ -23,7 +23,7 @@ A collection of potential new features for the project.
 
 - **Implementation Ideas**:
   - [X] I want me to place the music button in a location that's mildly out of slight. Let it be a treat for the curious visitors to discover.
-  - [ ] I'd like for each webpage to play a different melody when its music button is pressed. A different theme for each page!
+  - [X] I'd like for each webpage to play a different melody when its music button is pressed. A different theme for each page!
   - [ ] I feel it'd be cool to build a database of musicbox songs. I'd like to build a feature that selects a different melody to play every time the page is reloaded!
 
 - **References**:

@@ -385,3 +385,19 @@ PATCH RELEASE: Enhanced `Player Stats` page with updates
 
 
 
+
+## [1.5.6] - 2024-11-07
+PATCH RELEASE: Fixed caption-related bug with images displayed in `Art Projects` page
+
+## Fixed
+- Corrected issue #4 described in ISSUES.md file. The captions associated with the art gallery images are now displaying correctly.
+
+## Added
+- Added a `.art-title` class to the `Art Projects` page to center the text alignment of the titles on the art cards on the webpage
+
+## Changed
+- Modified the properties of these CSS classes:
+  - `.lightbox-content`
+  - `.lightbox-caption`
+  - `.lightbox img`
+
