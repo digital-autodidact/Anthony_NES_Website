@@ -178,7 +178,7 @@ A collection of potential new features for the project.
 
 
 ## Feature 13: Set up a `Quest Journal` (ie Blog Area) for your website
-- **Status:** ❌NOT IMPLEMENTED YET
+- **Status:** ❌ NOT IMPLEMENTED YET
 - **Description**: I want to create a blog for my personal website; it will be associated with my questbook. Each quest deserves to be chronicled! 
 - **Benefits**: 
 - **Implementation Ideas**: 

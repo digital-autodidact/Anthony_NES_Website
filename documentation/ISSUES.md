@@ -105,3 +105,23 @@
   - What did you learn from this issue?
 
 
+
+## Issue #7: The Resume section on `Player Stats` page has buttons that don't point to my resume
+- **Status:** ❌ NOT FIXED
+- **Date:** 2024-11-07
+- **Description:**
+- **Resolution:**
+  - Explain the solution you implemented.
+- **Learnings:**
+  - What did you learn from this issue?
+
+
+## Issue #8: The Contact Form on the `Contact` page is non-functional because it needs a backend
+- **Status:** ❌ NOT FIXED
+- **Date:** 2024-11-07
+- **Description:**
+- **Resolution:**
+  - Explain the solution you implemented.
+- **Learnings:**
+  - What did you learn from this issue?
+
