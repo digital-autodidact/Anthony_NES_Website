@@ -7,13 +7,13 @@ All notable changes to this project will be documented in this file.
 
 [Short Title Description]
 
-### Added
+### Additions
 - [Implemented new feature]
 
-### Changed
+### Modifications
 - [Edited pre-existing feature]
 
-### Fixed
+### Corrections
 - [Resolved a problem]
 ```
 
@@ -24,37 +24,42 @@ SEMANTIC VERSIONING FRAMEWORK
 MAJOR version (X.Y.Z):
 Increment the MAJOR version when you make code changes that are not backward-compatible.
 Examples:
-  - Redesigning the entire UI that requires users to adapt significantly.
+  - Redesigning the entire UI of the website.
   - Removing or renaming public APIs.
   - Changing the underlying database structure that affects the current way content is served.
 
 MINOR Changes (0.Y.0)
 Increment the MINOR version when you add new features or substantial improvements that do not break existing functionality.
 Examples:
-  - Adding a new feature like a blog or forum section.
-  - Implementing new styling or layout options that enhance user experience without disrupting current content.
+  - Adding a new feature like a webpage or section.
+  - Implementing new CSS styling or layout options that enhance user experience without disrupting current content.
   - Adding additional languages or localization options.
 
 Increment the PATCH version when you implement backward-compatible bug fixes.
 Examples:
   - Fixing a layout issue on specific devices or browsers.
-  - Correcting a typo on your site.
+  - Correcting typos on your site.
   - Addressing minor bugs that don’t change how features work.
-
+  - Updating documentation
 
 ```
 
 
 
+<!-- START OF THE PROJECT  -->
 
+<!-- NEW RELEASE -->
 
 ## [1.0.0] - 2024-10-12
-MAJOR RELASE
+MAJOR RELEASE
 
 ### Added
 - Initial release of the anthonyavelar.com website! Currently deployed as a single page website.
 - Implemented NES CSS Framework in the overall design for the website!
 
+
+<!-- NEW RELEASE -->
+<!-- COMMIT: a75b70bf6975738057605f56de8cbec4e094e71c -->
 
 ## [1.1.0] - 2024-10-17
 MINOR RELEASE
@@ -82,7 +87,12 @@ MINOR RELEASE
     - "Roles I Like to Play" section
 - Copied the footer design used in my `index.html` page
 
-
+<!-- NEW RELEASE -->
+<!-- COMMIT: a3a99ada99c0e3f4db616bf8397b3c4895345911 -->
+<!-- COMMIT: 49d0500301d78f0528d88f53d94d7b570de11c9c -->
+<!-- COMMIT: 12092c65012d76dfa0b6d7954590df5816a82660 -->
+<!-- COMMIT: d665a309e3f3afd9b00c07ecd89f5e45f7add22f -->
+ 
 
 ## [1.2.0] - 2024-10-18
 MINOR RELEASE: Introduced new images and content across multiple pages
@@ -127,6 +137,15 @@ MINOR RELEASE: Introduced new images and content across multiple pages
 ### Changed
 - Added comments within `styles.css` file to clarify the purpose of each CSS class I created.
 - Added a section within `styles.css` file dedicated to styling `Questbook` page
+
+
+
+<!-- NEW RELEASE -->
+<!-- COMMIT: fbb1d96df2f8f321496f68c9d515c7da8073cff4 -->
+<!-- COMMIT: 589809fad715f20ae70d4b31d57e3e3ef81a7476 -->
+<!-- COMMIT: b32053f9bad487f6c926b285733d27f9d11326da -->
+<!-- COMMIT: 1934646c15eeacaa9b2d71c3f8a9158bf64b2e7f -->
+<!-- COMMIT: 88462376011637b5b66f19a7ffb568b7d71500be -->
 
 
 ## [1.3.0] - 2024-10-19
@@ -190,7 +209,10 @@ MINOR RELEASE
 
 - Removed redudant sections from the homepage
 
+<!-- NEW RELEASE -->
 
+<!-- COMMIT: 5c22c58d0487ca45c85e08debde63d2e0e0f8ebd -->
+<!-- COMMIT: b568094d29907b2892f896f549b69439ee12356b -->
 
 ## [1.3.1] - 2024-10-20
 PATCH RELEASE:
@@ -212,10 +234,25 @@ PATCH RELEASE:
 - Centered the project cards by editing `styles.css` file. This fixed issue #2. See `Issues.md` file for context.
 - Removed hypothetical project cards from `Code Projects` page. Only the projects I am actively working on remain.
 
+<!-- NEW RELEASE -->
+<!-- COMMIT: 653c27ec59765458d53a17251097aee4afd92a17 -->
 
+## [1.3.2] - 2024-10-2
+PATCH RELEASE: Modify the website's pages in preparation for deployment. The enhanced version will be deployed soon!
+
+## Added
+- Added issue #6 to ISSUES.md file
+- Added feature ideas #15-19 to NEWFEATURES.md file
+
+## Changed
+- Revised the formatting of `NEWFEATURES.md` file
+
+
+<!-- NEW RELEASE -->
+<!-- COMMIT: bc182822f6792adee67eab57e5dbd4f361363fd3 -->
 
 ## [1.3.2] - 2024-10-22
-PATCH RELEASE: Edited the website's pages in preparation for deployment. The enhanced version will be deployed tomorrow!
+PATCH RELEASE:
 
 ### Changed
 
@@ -226,11 +263,29 @@ PATCH RELEASE: Edited the website's pages in preparation for deployment. The enh
    - Added hyperlinks to the bullet points in the `What Am I Currently Working On?` section
    - Added emojis onto the bullet points in the `What Am I Learning About Right Now?` section
 
+
+
+<!-- NEW RELEASE -->
+<!-- COMMIT: 2e5c4a477396733c0ea4b23b7dc0725d0cbd7850 -->
+
+## [1.3.2] - 2024-10-22
+PATCH RELEASE:
+
+### Changed
+
 - Edited content on `About Me` page:
    - Replaced the "Detective" role with the "Writer" role within the `Roles I Like to Play` section
    - Applied the "lists" css class to all the bullet point lists used in the page
    - Merged the `Roles I Like to Play` section into the `Life Philosophy` section
    - Added a button that points to my `Contact Me` page at the bottom of the page
+
+<!-- NEW RELEASE -->
+<!-- COMMIT: 64c1ccb40c49e3fd0cc12a0c613844c1b5b15393 -->
+
+## [1.3.2] - 2024-10-22
+PATCH RELEASE:
+
+### Changed
 
 - Edited content on `Code Projects` page:
    - Changed the title of the `What I'm Doing Now` section to say `What I'm Learning About Now`
@@ -240,6 +295,14 @@ PATCH RELEASE: Edited the website's pages in preparation for deployment. The enh
    - Added a button that points to my `Contact Me` page at the bottom of the page
 
 
+<!-- NEW RELEASE -->
+<!-- COMMIT: 690091b830b69e467c9616b3aeb30591efc4906b -->
+
+## [1.3.2] - 2024-10-22
+PATCH RELEASE:
+
+### Changed
+
 - Edited `Art Projects` page content:
   - Changed title of `What I'm Doing Now` section to `What I'm Learning About Now`
   - Applied `lists` and `nes-list is-disc` CSS classes to all bullet point lists
@@ -248,6 +311,14 @@ PATCH RELEASE: Edited the website's pages in preparation for deployment. The enh
   - Added button linking to Contact Me page at the bottom
   - Included hypothetical prices for the art pieces
 
+
+<!-- NEW RELEASE -->
+<!-- COMMIT: e1fed782a78e2961180d2a38599fbf68b67411f6 -->
+
+## [1.3.2] - 2024-10-22
+PATCH RELEASE:
+
+### Changed
 
 - Edited `Questbook` page content:
   - Streamlined content in the `What is a Quest?` section
@@ -259,8 +330,13 @@ PATCH RELEASE: Edited the website's pages in preparation for deployment. The enh
     - `master-quest.html`
     - `side-quests.html`
 
+<!-- WEBSITE REDEPLOYED -->
+
 ## WEBSITE VERSION [1.3.2] WAS DEPLOYED TO GODADDY CPANEL VIA FTP ON 2024-10-23
 The new enhanced website is live!
+
+<!-- NEW RELEASE -->
+<!-- COMMIT: 0da45c6249cab800dd8aa6e0370ea16eabe19369 -->
 
 ## [1.4.0] - 2024-10-23
 MINOR RELEASE: Added unique music files for each page on the website.
@@ -278,6 +354,8 @@ MINOR RELEASE: Added unique music files for each page on the website.
   - PlayerStats page: `FinalBattleVsRival_PokemonGen1.mp3`
   - Contact page: `NationalPark_Pokemon.mp3`
 
+<!-- NEW RELEASE -->
+<!-- COMMIT: 4419df32e34dcff3cbd7adbdd6fce0d9da8c13eb -->
 
 ## [1.5.0] - 2024-10-23
 MINOR RELEASE: Implemented toggle feature for improved readability. Feature will be used across the website.
@@ -286,6 +364,8 @@ MINOR RELEASE: Implemented toggle feature for improved readability. Feature will
 - Developed a toggle feature for enhanced content accessibility across different sections of the website.
 - Integrated the toggle feature on the homepage to improve content readability.
 
+<!-- NEW RELEASE -->
+<!-- COMMIT: d117951fdc36449ceb49ad4ad3dd886560c1a7c3 -->
 
 ## [1.5.1] - 2024-10-24
 PATCH RELEASE: Enhanced the `About Me` page with new toggle feature and wrote new content for the sections
@@ -305,6 +385,8 @@ PATCH RELEASE: Enhanced the `About Me` page with new toggle feature and wrote ne
   - `What's My Dream?`
   - `If You're Going My Way, Walk With Me`
 
+<!-- NEW RELEASE -->
+<!-- COMMIT: 749834da771717f256d9413803f6a43157e7a223 -->
 
 ## [1.5.2] - 2024-10-24
 PATCH RELEASE: Enhanced the `Code Projects` page with new toggle features and wrote new content in various sections.
@@ -329,6 +411,8 @@ PATCH RELEASE: Enhanced the `Code Projects` page with new toggle features and wr
   - `Like What You Saw Here? Let's Talk!` to `I'm Available For Hire`
 - Merged `Favorite Technologies` section into `About Me As A Developer` section for better organization.
 
+<!-- NEW RELEASE -->
+<!-- COMMIT: a2c605b9cd2abd08aa0cb3c8b00a4289cb56eac6 -->
 
 ## [1.5.3] - 2024-10-24
 PATCH RELEASE: Enhanced the `Art Projects` page with new toggle features and wrote new content in various sections.
@@ -350,7 +434,8 @@ Added a project card to `Code Projects` page
   - `Like What You Saw Here? Let's Talk!` to `I'm Available For Hire`
 - Merged `Favorite Technologies` section into `About Me As An Artist` section for better organization.
 
-
+<!-- NEW RELEASE -->
+<!-- COMMIT: 30b2a51d6e3eb31a43008f6c754c423376792fe4 -->
 
 ## [1.5.4] - 2024-10-24
 PATCH RELEASE: Enhanced `Questbook` page and add new quest HTML files.
@@ -370,7 +455,8 @@ Made minor content changes within the `Art Projects` and `Code Projects` pages
 - Enhanced the readability of the CHANGELOG.md file by introducing a new rule that requires me to explicitly identify the type of release for every new version of the website
   - Edited the previous entries to be consistent with this new convention
 
-
+<!-- NEW RELEASE -->
+<!-- COMMIT: 5b338bb362dd3eeffec0465f5a001ba165591b04 -->
 
 ## [1.5.5] - 2024-10-24
 PATCH RELEASE: Enhanced `Player Stats` page with updates
@@ -384,7 +470,8 @@ PATCH RELEASE: Enhanced `Player Stats` page with updates
 - Eliminated skills I can't believably justify from `Skills` section
 
 
-
+<!-- NEW RELEASE -->
+<!-- COMMIT: 9e2db8131673f9465da8857829b5de478035a845 -->
 
 ## [1.5.6] - 2024-11-07
 PATCH RELEASE: Fixed caption-related bug with images displayed in `Art Projects` page
@@ -401,3 +488,33 @@ PATCH RELEASE: Fixed caption-related bug with images displayed in `Art Projects`
   - `.lightbox-caption`
   - `.lightbox img`
 
+
+<!-- NEW RELEASE -->
+<!-- COMMIT: 6a0a9e1a29b985ad05c6b237497b84638b3ef247 -->
+
+## ## [1.5.7] - 2025-04-27
+~~MINOR~~ PATCH RELEASE: Updated documentation
+(I mislabeled this release on its Git commit message; should've been labeld a PATCH release. Oh well)
+
+## Changed
+- Updated two files: `ISSUES.md` and `NEWFEATURES.MD`
+
+
+<!-- NEW RELEASE -->
+<!-- COMMIT: [not yet made] -->
+
+
+## [1.6.0] - 2025-04-27
+MINOR RELEASE: Redesign `contact-page.html` page. Enhance `CHANGELOG.md` file
+
+### Additions
+- Added four new tutoring service advertisements on `contact-page.html`
+- Added colored buttons that link to my "Tech Tutor Onboarding Form" (hosted on Google Forms)
+- New comments in `CHANGELOG.md` file to enhance readability and to associate previously made commits with previous releases
+
+### Modifications
+- Redesigned `contact-page.html` to be an advertising page for my tutoring services
+- Replaced the nonfunctional contact form with a Google Forms survey; the survey is titled "Tech Tutor Onboarding Form"
+- Removed the "Start a Conversation" section because it no longer has a purpose to exist
+- Renamed `contact-page.html` file to `tutoring.html` file
+- Edited navigation header to display a "Tutoring" button instead of a "Contact" button; made the edit to the rest of webpages that have the navigation header embedded in them too
